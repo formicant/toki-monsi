@@ -53,11 +53,11 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         with <= `max_word_count` words from `word_list`.
     """
     
-    @lru_cache()
+    @lru_cache
     def get_words_by_ending(ending: str) -> list[str]:
         return [word for word in word_list if word.endswith(ending) or ending.endswith(word)]
-
-    @lru_cache()
+    
+    @lru_cache
     def get_words_by_beginning(beginning: str) -> list[str]:
         return [word for word in word_list if word.startswith(beginning) or beginning.startswith(word)]
     
@@ -97,7 +97,11 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         """ Returns all palindrome fragments consisting of a single word.
         """
         for word in word_list:
-            for offset in range(-len(word), len(word)):  # `-len(word)` gives a non-intersecting fragment
+            for offset in range(-len(word), len(word)):  #                   .....nanpa
+                # `-len(word)` gives a non-intersecting fragment like this:  apnan.....
+                # Greater offsets give intersecting fragments like these:
+                #     ....nanpa      ..nanpa      nanpa....
+                #     apnan....      apnan..      ....apnan
                 if matches_with_reverse(word, offset):
                     yield PalindromeFragment([word], offset)
     
