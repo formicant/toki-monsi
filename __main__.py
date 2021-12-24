@@ -2,7 +2,7 @@ from words import pu_words
 from palindrome import generate_palindromes
 from timeit import default_timer as timer
 
-max_word_count = 6
+max_word_count = 1
 print(f'Generating palindromes with <= {max_word_count} words...')
 
 start = timer()
