@@ -71,16 +71,16 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         ]
     
     def get_possible_prependings(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
-        """ Tries adding every word from the `word_list` to the beginning of the fragment.
-            Returns only valid palindrome fragments.
+        """ Returns all possible palindrome fragments that differ from
+            the given `fragment` by one word added to the beginning.
         """
         matching_part = reverse(fragment.caseless_joined[fragment.offset:])
         for word in get_words_by_ending(matching_part):
             yield fragment.prepend(word)
     
     def get_possible_appendings(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
-        """ Tries adding every word from the `word_list` to the end of the fragment.
-            Returns only valid palindrome fragments.
+        """ Returns all possible palindrome fragments that differ from
+            the given `fragment` by one word added to the end.
         """
         matching_part = reverse(fragment.caseless_joined[:fragment.offset])
         for word in get_words_by_beginning(matching_part):
