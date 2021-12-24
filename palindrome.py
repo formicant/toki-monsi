@@ -9,9 +9,9 @@ def reverse(s: str) -> str:
 
 def matches_with_reverse(phrase: str, offset: int=0) -> bool:
     if offset < 0:
-        matching_part = phrase[:offset]
+        matching_part = phrase[:offset].casefold()
     else:
-        matching_part = phrase[offset:]
+        matching_part = phrase[offset:].casefold()
     return matching_part == reverse(matching_part)
 
 
@@ -24,8 +24,8 @@ class PalindromeFragment:
     def __init__(self, words: list[str], offset: int):
         self.words = words
         self.offset = offset
-        self.words_combined = ''.join(words)
-        # assert matches_with_reverse(self.words_combined, self.offset), 'Not a fragment of a palindrome!'
+        self.caseless_joined = ''.join(words).casefold()
+        # assert matches_with_reverse(self.caseless_joined, self.offset), 'Not a fragment of a palindrome!'
     
     def is_complete(self) -> bool:
         """ Is the fragment a complete palindrome?
@@ -54,20 +54,27 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
     """ Returns a list of all possible palindromes
         with <= `max_word_count` words from `word_list`.
     """
+    cased_and_caseless_words = [(word, word.casefold()) for word in word_list]
     
     @lru_cache
     def get_words_by_ending(ending: str) -> list[str]:
-        return [word for word in word_list if word.endswith(ending) or ending.endswith(word)]
+        return [word
+            for word, caseless_word in cased_and_caseless_words
+            if caseless_word.endswith(ending) or ending.endswith(caseless_word)
+        ]
     
     @lru_cache
     def get_words_by_beginning(beginning: str) -> list[str]:
-        return [word for word in word_list if word.startswith(beginning) or beginning.startswith(word)]
+        return [word
+            for word, caseless_word in cased_and_caseless_words
+            if caseless_word.startswith(beginning) or beginning.startswith(caseless_word)
+        ]
     
     def get_possible_prependings(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
         """ Tries adding every word from the `word_list` to the beginning of the fragment.
             Returns only valid palindrome fragments.
         """
-        matching_part = reverse(fragment.words_combined[fragment.offset:])
+        matching_part = reverse(fragment.caseless_joined[fragment.offset:])
         for word in get_words_by_ending(matching_part):
             yield fragment.prepend(word)
     
@@ -75,7 +82,7 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         """ Tries adding every word from the `word_list` to the end of the fragment.
             Returns only valid palindrome fragments.
         """
-        matching_part = reverse(fragment.words_combined[:fragment.offset])
+        matching_part = reverse(fragment.caseless_joined[:fragment.offset])
         for word in get_words_by_beginning(matching_part):
             yield fragment.append(word)
     

@@ -7,8 +7,8 @@ small_word_list = ['a', 'ala', 'alasa', 'kala', 'la', 'pu']
 
 
 def is_palindrome(words: list[str]) -> bool:
-    joined = ''.join(words)
-    return joined == joined[::-1]
+    caseless_joined = ''.join(words).casefold()
+    return caseless_joined == caseless_joined[::-1]
 
 
 def generate_palindromes_naïvely(word_list: list[str], max_word_count: int) -> list[str]:
@@ -18,9 +18,16 @@ def generate_palindromes_naïvely(word_list: list[str], max_word_count: int) -> 
 
 @pytest.mark.parametrize('word_list, max_word_count', [
     (pu_words, 3),
-    (small_word_list, 6),
+    (small_word_list, 8),
 ])
 def test_generate_palindromes(word_list: list[str], max_word_count: int):
     expected = generate_palindromes_naïvely(word_list, max_word_count)
-    result = generate_palindromes(word_list, max_word_count)
-    assert sorted(result) == sorted(expected)
+    actual = generate_palindromes(word_list, max_word_count)
+    assert sorted(actual) == sorted(expected)
+
+
+def test_case_insensitiveness():
+    cased_word_list = ['ala', 'Ala', 'kALa']
+    expected = ['ala', 'Ala', 'ala ala', 'ala Ala', 'Ala ala', 'Ala Ala', 'ala kALa', 'Ala kALa']
+    actual = generate_palindromes(cased_word_list, 2)
+    assert sorted(actual) == sorted(expected)
