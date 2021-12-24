@@ -10,8 +10,8 @@ palindromes = generate_palindromes(pu_words, max_word_count)
 end = timer()
 
 print()
-# for p in palindromes:
-#     print(p)
+for p in palindromes:
+    print(p)
 
 print()
 print(f'count: {len(palindromes)}')
