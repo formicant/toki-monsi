@@ -2,10 +2,12 @@
 
 ## TO DO:
 
+- Case insensitive comparison
 - Test
 - Try optimizing
 - Try multiprocessing
 - Add grammar parser to filter out trash
+- Rate results (according to n-gram frequencies or something else)
 
 
 ## Performance

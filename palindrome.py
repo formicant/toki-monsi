@@ -2,8 +2,10 @@ from __future__ import annotations
 from typing import Iterable
 from functools import lru_cache
 
+
 def reverse(s: str) -> str:
     return s[::-1]
+
 
 def matches_with_reverse(phrase: str, offset: int=0) -> bool:
     if offset < 0:
@@ -97,7 +99,7 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         """ Returns all palindrome fragments consisting of a single word.
         """
         for word in word_list:
-            for offset in range(-len(word), len(word)):  #                   .....nanpa
+            for offset in range(-len(word), len(word)):                   #  .....nanpa
                 # `-len(word)` gives a non-intersecting fragment like this:  apnan.....
                 # Greater offsets give intersecting fragments like these:
                 #     ....nanpa      ..nanpa      nanpa....
