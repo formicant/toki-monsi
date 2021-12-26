@@ -1,18 +1,10 @@
 from __future__ import annotations
-from typing import Iterable
+from typing import Iterable, Optional
 from functools import lru_cache
 
 
 def reverse(s: str) -> str:
     return s[::-1]
-
-
-def matches_with_reverse(phrase: str, offset: int=0) -> bool:
-    if offset < 0:
-        matching_part = phrase[:offset].casefold()
-    else:
-        matching_part = phrase[offset:].casefold()
-    return matching_part == reverse(matching_part)
 
 
 class PalindromeFragment:
@@ -24,8 +16,21 @@ class PalindromeFragment:
     def __init__(self, words: list[str], offset: int):
         self.words = words
         self.offset = offset
-        self.caseless_joined = ''.join(words).casefold()
-        # assert matches_with_reverse(self.caseless_joined, self.offset), 'Not a fragment of a palindrome!'
+    
+    @classmethod
+    def try_from_single_word(cls, word: str, offset: int) -> Optional[PalindromeFragment]:
+        """ Returns a fragment consisting of a single `word` with a given `offset`
+            if it is a valid palindrome fragment, or `None` if not.
+        """
+        if offset < 0:
+            matching_part = word[:offset].casefold()
+        else:
+            matching_part = word[offset:].casefold()
+        
+        if matching_part == reverse(matching_part):
+            return cls([word], offset)
+        else:
+            return None
     
     def is_complete(self) -> bool:
         """ Is the fragment a complete palindrome?
@@ -74,16 +79,16 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
         """ Returns all possible palindrome fragments that differ from
             the given `fragment` by one word added to the beginning.
         """
-        matching_part = reverse(fragment.caseless_joined[fragment.offset:])
-        for word in get_words_by_ending(matching_part):
+        matching_part = reverse(fragment.words[-1][fragment.offset:])
+        for word in get_words_by_ending(matching_part.casefold()):
             yield fragment.prepend(word)
     
     def get_possible_appendings(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
         """ Returns all possible palindrome fragments that differ from
             the given `fragment` by one word added to the end.
         """
-        matching_part = reverse(fragment.caseless_joined[:fragment.offset])
-        for word in get_words_by_beginning(matching_part):
+        matching_part = reverse(fragment.words[0][:fragment.offset])
+        for word in get_words_by_beginning(matching_part.casefold()):
             yield fragment.append(word)
     
     def get_possible_extensions_recursively(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
@@ -111,8 +116,9 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
                 # Greater offsets give intersecting fragments like these:
                 #     ....nanpa      ..nanpa      nanpa....
                 #     apnan....      apnan..      ....apnan
-                if matches_with_reverse(word, offset):
-                    yield PalindromeFragment([word], offset)
+                fragment = PalindromeFragment.try_from_single_word(word, offset)
+                if fragment:
+                    yield fragment
     
     cores = get_palindrome_cores()
     palindromes = (fragment
