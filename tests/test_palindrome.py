@@ -6,7 +6,7 @@ from words import pu_words
 small_word_list = ['a', 'ala', 'alasa', 'kala', 'la', 'pu']
 
 
-def is_palindrome(words: list[str]) -> bool:
+def is_palindrome(words: tuple[str, ...]) -> bool:
     caseless_joined = ''.join(words).casefold()
     return caseless_joined == caseless_joined[::-1]
 
