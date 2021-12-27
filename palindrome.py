@@ -54,6 +54,9 @@ class PalindromeFragment:
         """
         return ' '.join(self.words)
 
+    def __repr__(self) -> str:
+        return f"<PalindromeFragment: words=[{' '.join(self.words)}], offset={self.offset}>"
+
 
 def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]:
     """ Returns a list of all possible palindromes
