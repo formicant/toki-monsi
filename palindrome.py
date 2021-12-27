@@ -94,9 +94,10 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
     def get_possible_extensions_recursively(fragment: PalindromeFragment) -> Iterable[PalindromeFragment]:
         """ Tries adding every possible combinations of words
             to the beginning and the end of the fragment.
-            Returns only valid palindrome fragments with <= `max_word_count` words.
+            Returns only valid palindromes with <= `max_word_count` words.
         """
-        yield fragment
+        if fragment.is_complete():
+            yield fragment
         
         if len(fragment.words) < max_word_count:
             if fragment.offset < 0:
@@ -124,6 +125,5 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
     palindromes = (fragment
         for core in cores
         for fragment in get_possible_extensions_recursively(core)
-        if fragment.is_complete()
     )
     return [palindrome.get_phrase() for palindrome in palindromes]
