@@ -1,5 +1,11 @@
 # Toki Pona palindrome generator
 
+## Requirements:
+
+- python 3.9 or later
+- pytest
+- mypy
+
 ## TO DO:
 
 - Try optimizing
