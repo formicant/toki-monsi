@@ -99,10 +99,14 @@ def generate_palindromes(word_list: list[str], max_word_count: int) -> list[str]
             to the beginning and the end of the fragment.
             Returns only valid palindromes with <= `max_word_count` words.
         """
+        word_count = len(fragment.words)
+        if word_count > max_word_count:
+            return
+
         if fragment.is_complete():
             yield fragment
         
-        if len(fragment.words) < max_word_count:
+        if word_count < max_word_count:
             if fragment.offset < 0:
                 possible_extensions = get_possible_prependings(fragment)
             else:

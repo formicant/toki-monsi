@@ -31,3 +31,7 @@ def test_case_insensitiveness():
     expected = ['ala', 'Ala', 'ala ala', 'ala Ala', 'Ala ala', 'Ala Ala', 'ala kALa', 'Ala kALa']
     actual = generate_palindromes(cased_word_list, 2)
     assert sorted(actual) == sorted(expected)
+
+
+def test_max_count_zero():
+    assert not generate_palindromes(pu_words, 0)
