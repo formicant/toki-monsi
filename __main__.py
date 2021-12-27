@@ -1,8 +1,13 @@
+import argparse
+
 from words import pu_words
 from palindrome import generate_palindromes
 from timeit import default_timer as timer
 
-max_word_count = 6
+parser = argparse.ArgumentParser(description='Generate palindromes.')
+parser.add_argument('max_word_count', type=int, help='max word count')
+max_word_count = parser.parse_args().max_word_count
+
 print(f'Generating palindromes with <= {max_word_count} words...')
 
 start = timer()
