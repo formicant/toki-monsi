@@ -139,10 +139,3 @@ class PalindromeGraph:
             for edge in edges:
                 if self.distances[edge.from_node] < inf and self.distances[edge.to_node] < inf:
                     self.edges_by_from_node[edge.from_node].add(edge)
-
-
-word = 'unpa'
-length = len(word)
-for offset in range(-length, length):
-    matching_part, tail = slice_by_offset(word, offset)
-    print(offset, matching_part, tail)
