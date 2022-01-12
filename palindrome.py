@@ -22,7 +22,5 @@ class PalindromeGenerator:
                 yield words
             
             for edge in self.graph.edges_by_from_node[node]:
-                if node.is_starting:
-                    yield from self._get_palindromes_recursively(edge.to_node, [*words, edge.word], max_word_count - 1)
-                else:
-                    yield from self._get_palindromes_recursively(edge.to_node, [edge.word, *words], max_word_count - 1)
+                new_words = [*words, edge.word] if node.is_starting else [edge.word, *words]
+                yield from self._get_palindromes_recursively(edge.to_node, new_words, max_word_count - 1)
