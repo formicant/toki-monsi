@@ -19,16 +19,15 @@ def slice_by_offset(word: str, offset: int) -> tuple[str, str]:
 @dataclass(frozen=True)
 class Node:
     """ Graph node representing a class of palindrome fragments with a common tail.
-        Tails are stored with their characters in reversed order.
         `offset` is the signed length of the tail.
         If the tail is located before the pallindromic part, `offset` is >= 0,
         otherwise, `offset` is < 0.
     """
-    reversed_tail: str
+    tail: str
     offset: int
     
     def __post_init__(self):
-        assert(len(self.reversed_tail) == abs(self.offset))
+        assert(len(self.tail) == abs(self.offset))
 
 
 @dataclass(frozen=True)
@@ -47,21 +46,20 @@ class Edge:
             or returns None if is impossible.
         """
         caseless_word = word.casefold()
-        from_tail = from_node.reversed_tail
-        from_offset = from_node.offset
-        word_offset = (1 if from_offset >= 0 else -1) * len(caseless_word)
-        to_offset = from_offset - word_offset
+        word_length = len(caseless_word)
         
-        if (from_offset >= 0) == (to_offset >= 0):
-            to_tail, tail_matching_part = slice_by_offset(from_tail, word_offset)
+        to_node_offset = from_node.offset + word_length * (-1 if from_node.offset >= 0 else 1)
+        word_offset = (-1 if to_node_offset >= 0 else 1) * word_length
+        
+        if (from_node.offset >= 0) == (to_node_offset >= 0):
+            to_node_tail, tail_matching_part = slice_by_offset(from_node.tail, word_offset)
             word_matching_part = caseless_word
         else:
-            tail, word_matching_part = slice_by_offset(caseless_word, from_offset)
-            to_tail = reverse(tail)
-            tail_matching_part = from_tail
+            to_node_tail, word_matching_part = slice_by_offset(caseless_word, from_node.offset)
+            tail_matching_part = from_node.tail
         
-        if tail_matching_part == word_matching_part:
-            return Edge(from_node, word, Node(to_tail, to_offset))
+        if reverse(tail_matching_part) == word_matching_part:
+            return Edge(from_node, word, Node(to_node_tail, to_node_offset))
         else:
             return None
 
@@ -94,7 +92,7 @@ class PalindromeGraph:
             
             for offset in range(-length, length):
                 matching_part, tail = slice_by_offset(caseless_word, offset)
-                from_node = Node(reverse(tail), offset)
+                from_node = Node(tail, offset)
                 nodes.add(from_node)
                 
                 # A node is starting if its matching part is palindromic
