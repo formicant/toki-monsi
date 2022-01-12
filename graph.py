@@ -6,22 +6,28 @@ from math import inf
 from queue import PriorityQueue
 from prioritized import Prioritized
 
+# Helpar functions
+
 def reverse(s: str) -> str:
     return s[::-1]
 
 def slice_by_offset(word: str, offset: int) -> tuple[str, str]:
-    if offset < 0:
-        return (word[:offset], word[offset:])
-    else:
+    if offset >= 0:
         return (word[offset:], word[:offset])
+    else:
+        return (word[:offset], word[offset:])
 
+def sign(i: int) -> int:
+    return 1 if i >= 0 else -1
+
+# Classes
 
 @dataclass(frozen=True)
 class Node:
     """ Graph node representing a class of palindrome fragments with a common tail.
         `offset` is the signed length of the tail.
-        If the tail is located before the pallindromic part, `offset` is >= 0,
-        otherwise, `offset` is < 0.
+        If the tail is located before the pallindromic part, `offset` is >= 0.
+        If the tail is located after the pallindromic part, `offset` is < 0.
     """
     tail: str
     offset: int
@@ -34,7 +40,7 @@ class Node:
 class Edge:
     """ Edge between two graph nodes marked with a word.
         The edge exists iff `to_node` is reached by adding `word`
-        to fragments from `from_node` class.
+        to fragments from the `from_node` class.
     """
     from_node: Node
     word: str
@@ -43,15 +49,15 @@ class Edge:
     @classmethod
     def try_create(cls, from_node: Node, word: str) -> Optional[Edge]:
         """ Creates an edge by its `from_node` and `word`
-            or returns None if is impossible.
+            or returns None if impossible.
         """
         caseless_word = word.casefold()
         word_length = len(caseless_word)
         
-        to_node_offset = from_node.offset + word_length * (-1 if from_node.offset >= 0 else 1)
-        word_offset = (-1 if to_node_offset >= 0 else 1) * word_length
+        to_node_offset = from_node.offset - sign(from_node.offset) * word_length
+        word_offset = -sign(to_node_offset) * word_length
         
-        if (from_node.offset >= 0) == (to_node_offset >= 0):
+        if sign(from_node.offset) == sign(to_node_offset):
             to_node_tail, tail_matching_part = slice_by_offset(from_node.tail, word_offset)
             word_matching_part = caseless_word
         else:
@@ -65,11 +71,15 @@ class Edge:
 
 
 class PalindromeGraph:
-    """ Helper graph to build palindromes.
+    """ Helper graph for building palindromes.
+        To build a palindrome, one should start with a start node
+        and go along the edges till the final node.
+        At each step, the word from the edge should be added to the fragment
+        at the opposite side from the fragment's tail.
     """
     
     start_nodes: list[tuple[Node, str]]
-    """ Nodes and corresponding words palindrome building can start from. """
+    """ Start nodes and corresponding words. """
     
     edges_by_from_node: dict[Node, set[Edge]]
     """ Edges grouped by their from-nodes. """
@@ -79,11 +89,11 @@ class PalindromeGraph:
     
     
     def __init__(self, word_list: Iterable[str]):
-
+        
         # Create graph nodes
         
         nodes: set[Node] = set()
-        self.start_nodes = []
+        start_nodes = []
         final_node = Node('', 0)
         
         for word in word_list:
@@ -96,8 +106,8 @@ class PalindromeGraph:
                 nodes.add(from_node)
                 
                 # A node is starting if its matching part is palindromic
-                if matching_part == reverse(matching_part):
-                    self.start_nodes.append((from_node, word))
+                if reverse(matching_part) == matching_part:
+                    start_nodes.append((from_node, word))
         
         
         # Create edges
@@ -129,7 +139,12 @@ class PalindromeGraph:
                     queue.put(Prioritized(from_node_distance, from_node))
         
         
-        # Group edges by from-node leaving only accessible ones
+        # Leave only useful start nodes
+        
+        self.start_nodes = [(n, w) for n, w in start_nodes if self.distances[n] < inf]
+        
+        
+        # Group edges by from-node leaving only useful ones
         
         self.edges_by_from_node = defaultdict(set)
         

@@ -4,7 +4,7 @@ from graph import PalindromeGraph, Node
 class PalindromeGenerator:
     """ Generates palindromes using words from `word_list`.
     """
-    def __init__(self, word_list: list[str]):
+    def __init__(self, word_list: Iterable[str]):
         self.graph = PalindromeGraph(word_list)
     
     def generate(self, max_word_count: int) -> list[str]:
