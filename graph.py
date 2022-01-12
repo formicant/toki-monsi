@@ -1,5 +1,5 @@
 from __future__ import annotations
-from typing import Iterable, Optional
+from typing import Iterable, Optional, Union, Literal
 from dataclasses import dataclass
 from collections import defaultdict
 from math import inf
@@ -20,10 +20,20 @@ def slice_by_offset(word: str, offset: int) -> tuple[str, str]:
 def sign(i: int) -> int:
     return 1 if i >= 0 else -1
 
+
 # Classes
 
 @dataclass(frozen=True)
-class Node:
+class StartNode:
+    """ Graph start node.
+    """
+    offset: Literal[0] = 0
+    
+    def __repr__(self):
+        return '[start]'
+
+@dataclass(frozen=True)
+class TailNode:
     """ Graph node representing a class of palindrome fragments with a common tail.
         `offset` is the signed length of the tail.
         If the tail is located before the pallindromic part, `offset` is >= 0.
@@ -38,6 +48,8 @@ class Node:
     def __repr__(self):
         return f'{self.tail}-' if self.offset >= 0 else f'-{self.tail}'
 
+Node = Union[StartNode, TailNode]
+
 
 @dataclass(frozen=True)
 class Edge:
@@ -47,13 +59,13 @@ class Edge:
     """
     from_node: Node
     word: str
-    to_node: Node
+    to_node: TailNode
     
     def __repr__(self):
         return f'{self.from_node} ({self.word})→ {self.to_node}'
     
     @classmethod
-    def try_create(cls, from_node: Node, word: str) -> Optional[Edge]:
+    def try_create(cls, from_node: TailNode, word: str) -> Optional[Edge]:
         """ Creates an edge by its `from_node` and `word`
             or returns None if impossible.
         """
@@ -71,23 +83,23 @@ class Edge:
             tail_matching_part = from_node.tail
         
         if reverse(tail_matching_part) == word_matching_part:
-            return Edge(from_node, word, Node(to_node_tail, to_node_offset))
+            return Edge(from_node, word, TailNode(to_node_tail, to_node_offset))
         else:
             return None
 
 
 class PalindromeGraph:
     """ Helper graph for building palindromes.
-        To build a palindrome, one should start with a start node
+        To build a palindrome, one should start with the start node
         and go along the edges till the final node.
         At each step, the word from the edge should be added to the fragment
         at the opposite side from the fragment's tail.
     """
     
-    start_positions: list[tuple[Node, str]]
-    """ Start nodes and corresponding start words. """
+    start_node: StartNode
+    """ Start node. """
     
-    edges_by_from_node: dict[Node, set[Edge]]
+    edges_from_node: dict[Node, set[Edge]]
     """ Edges grouped by their from-nodes. """
     
     distances: dict[Node, float]
@@ -96,11 +108,13 @@ class PalindromeGraph:
     
     def __init__(self, word_list: Iterable[str]):
         
-        # Create graph nodes
+        # Create graph nodes and start edges
         
-        nodes: set[Node] = set()
-        start_positions = []
-        final_node = Node('', 0)
+        self.start_node = StartNode()
+        tail_nodes: set[TailNode] = set()
+        final_node = TailNode('', 0)
+        
+        edges_to_node: dict[Node, set[Edge]] = defaultdict(set)
         
         for word in word_list:
             caseless_word = word.casefold()
@@ -108,22 +122,20 @@ class PalindromeGraph:
             
             for offset in range(-length, length):
                 matching_part, tail = slice_by_offset(caseless_word, offset)
-                from_node = Node(tail, offset)
-                nodes.add(from_node)
+                node = TailNode(tail, offset)
+                tail_nodes.add(node)
                 
-                # A node is starting if its matching part is palindromic
+                # A node is accessible from start if the word's matching part is palindromic
                 if reverse(matching_part) == matching_part:
-                    start_positions.append((from_node, word))
+                    edges_to_node[node].add(Edge(self.start_node, word, node))
         
         
-        # Create edges
+        # Add other edges
         
-        edges_by_to_node: dict[Node, set[Edge]] = defaultdict(set)
-        
-        for from_node in nodes:
+        for node in tail_nodes:
             for word in word_list:
-                if edge := Edge.try_create(from_node, word):
-                    edges_by_to_node[edge.to_node].add(edge)
+                if edge := Edge.try_create(node, word):
+                    edges_to_node[edge.to_node].add(edge)
         
         
         # Find distance from every node to the final node
@@ -138,28 +150,24 @@ class PalindromeGraph:
             prioritized = queue.get()
             from_node_distance = prioritized.priority + 1
             
-            for edge in edges_by_to_node[prioritized.item]:
+            for edge in edges_to_node[prioritized.item]:
                 from_node = edge.from_node
                 if self.distances[from_node] > from_node_distance:
                     self.distances[from_node] = from_node_distance
                     queue.put(Prioritized(from_node_distance, from_node))
         
         
-        # Leave only useful start positions
-        
-        self.start_positions = [(n, w) for n, w in start_positions if self.distances[n] < inf]
-        
-        
         # Group edges by from-node leaving only useful ones
         
-        self.edges_by_from_node = defaultdict(set)
+        self.edges_from_node = defaultdict(set)
         
-        for to_node, edges in edges_by_to_node.items():
+        for to_node, edges in edges_to_node.items():
             if self.distances[to_node] < inf:
                 for edge in edges:
-                    self.edges_by_from_node[edge.from_node].add(edge)
+                    self.edges_from_node[edge.from_node].add(edge)
         
         
         # Nodes (Not used in generation. For debugging or visualizing purposes)
         
-        self.nodes = [n for n in nodes if self.distances[n] < inf]
+        self.nodes: list[Node] = [n for n in tail_nodes if self.distances[n] < inf]
+        self.nodes.append(self.start_node)
