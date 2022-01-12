@@ -11,7 +11,7 @@ class PalindromeGenerator:
         """ Returns a list of all possible palindromes with <= `max_word_count` words.
         """
         palindromes: list[str] = []
-        for node, word in self.graph.start_nodes:
+        for node, word in self.graph.start_positions:
             self._get_palindromes_recursively(node, [word], max_word_count, palindromes)
         
         return palindromes

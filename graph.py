@@ -34,6 +34,9 @@ class Node:
     
     def __post_init__(self):
         assert(len(self.tail) == abs(self.offset))
+    
+    def __repr__(self):
+        return f'{self.tail}-' if self.offset >= 0 else f'-{self.tail}'
 
 
 @dataclass(frozen=True)
@@ -45,6 +48,9 @@ class Edge:
     from_node: Node
     word: str
     to_node: Node
+    
+    def __repr__(self):
+        return f'{self.from_node} ({self.word})→ {self.to_node}'
     
     @classmethod
     def try_create(cls, from_node: Node, word: str) -> Optional[Edge]:
@@ -78,8 +84,8 @@ class PalindromeGraph:
         at the opposite side from the fragment's tail.
     """
     
-    start_nodes: list[tuple[Node, str]]
-    """ Start nodes and corresponding words. """
+    start_positions: list[tuple[Node, str]]
+    """ Start nodes and corresponding start words. """
     
     edges_by_from_node: dict[Node, set[Edge]]
     """ Edges grouped by their from-nodes. """
@@ -93,7 +99,7 @@ class PalindromeGraph:
         # Create graph nodes
         
         nodes: set[Node] = set()
-        start_nodes = []
+        start_positions = []
         final_node = Node('', 0)
         
         for word in word_list:
@@ -107,7 +113,7 @@ class PalindromeGraph:
                 
                 # A node is starting if its matching part is palindromic
                 if reverse(matching_part) == matching_part:
-                    start_nodes.append((from_node, word))
+                    start_positions.append((from_node, word))
         
         
         # Create edges
@@ -139,16 +145,21 @@ class PalindromeGraph:
                     queue.put(Prioritized(from_node_distance, from_node))
         
         
-        # Leave only useful start nodes
+        # Leave only useful start positions
         
-        self.start_nodes = [(n, w) for n, w in start_nodes if self.distances[n] < inf]
+        self.start_positions = [(n, w) for n, w in start_positions if self.distances[n] < inf]
         
         
         # Group edges by from-node leaving only useful ones
         
         self.edges_by_from_node = defaultdict(set)
         
-        for edges in edges_by_to_node.values():
-            for edge in edges:
-                if self.distances[edge.from_node] < inf and self.distances[edge.to_node] < inf:
+        for to_node, edges in edges_by_to_node.items():
+            if self.distances[to_node] < inf:
+                for edge in edges:
                     self.edges_by_from_node[edge.from_node].add(edge)
+        
+        
+        # Nodes (Not used in generation. For debugging or visualizing purposes)
+        
+        self.nodes = [n for n in nodes if self.distances[n] < inf]
