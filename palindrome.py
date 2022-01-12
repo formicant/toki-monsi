@@ -23,5 +23,5 @@ class PalindromeGenerator:
                 output.append(' '.join(words))
             
             for edge in self.graph.edges_by_from_node[node]:
-                new_words = [*words, edge.word] if node.is_starting else [edge.word, *words]
+                new_words = [*words, edge.word] if node.offset >= 0 else [edge.word, *words]
                 self._get_palindromes_recursively(edge.to_node, new_words, max_word_count - 1, output)
