@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Iterable, Tuple
 import multiprocessing
-from graph import PalindromeGraph, Node, StartEdge, Edge
+from .graph import PalindromeGraph, Node, StartEdge, Edge
 
 MIN_WORD_COUNT_FOR_MULTIPROCESSING = 7
 
