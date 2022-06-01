@@ -1,0 +1,9 @@
+## incorrect using of `li`
+
+# li
+# ona li
+# li pona
+# ona li li pona
+# ona li pona li
+# mi li pona
+# sina li pona
