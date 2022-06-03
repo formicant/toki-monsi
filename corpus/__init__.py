@@ -31,5 +31,5 @@ def get_sentences(file_path: str) -> Iterable[str]:
                     yield normalized
 
 
-sentence_end = re.compile(r'[.?!:]')
+sentence_end = re.compile(r'[.?!:"“”]')
 non_letter = re.compile(r'[^A-Za-z]+')

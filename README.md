@@ -3,6 +3,7 @@
 ## Requirements:
 
 - python 3.9 or later
+- parsita
 - pytest
 
 ## TO DO:
