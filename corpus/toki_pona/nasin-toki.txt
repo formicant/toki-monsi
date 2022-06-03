@@ -1,0 +1,149 @@
+# nasin toki (https://github.com/kilipan/nasin-toki)
+
+## nasin toki pona
+
+### how to read this grammar
+toki li pona
+toki ni li pona
+
+### general principles
+mi lukin e jan ni: ona li tawa tomo
+
+
+## basics
+
+### sentence structure
+mi lukin e ona
+tomo mi li lili
+soweli li moku e kili
+soweli li pali e tomo
+soweli li lukin e kili
+
+### phrases
+tomo waso
+ma Kanata li suli
+lipu kulupu Wikipesija li sona e ijo mute
+
+#### negation
+mi pali ala
+jan ala li lon tomo ni
+sina utala ala e waso suli
+ilo li tawa e jan ala
+
+#### multiple modifiers
+soweli suli pimeja
+soweli pimeja suli
+jan lawa pona
+jan pona lawa
+tomo ala mute
+tomo mute ala
+
+#### he particle pi
+poki pi telo wawa
+poki telo wawa
+
+### how to use prepositions
+kasi li suli tan wawa suno
+mi sama sina
+ona li kepeken ilo
+
+#### negation of prepositions
+mi lon ala tomo
+soweli li tawa ala kasi
+
+#### negation of preverbs
+mi wile ala toki
+waso li kama ala suli
+
+### how to say "and"
+waso li musi kepeken wawa kepeken kon
+jan Pin li sama jan Po li sama jan Kiko.
+jan Pin li sama jan Po sama jan Kiko.
+jan li pali li pakala e tomo e ilo lon ma kepeken luka
+jan li pali e tomo lon ma li pakala e ilo kepeken luka
+jan li pali e tomo e ilo kepeken luka li pakala e ona lon ma
+
+### questions
+#### X ala X
+soweli loje li moku ala moku e kili
+moku ala
+kili li kama ala kama suli
+jan li pana ala pana pi wawa mute e sike
+soweli ala soweli li nasin e sina
+
+#### anu seme
+ma sina li lete anu seme
+lete. taso suno pini li seli a
+
+#### seme
+jan seme li toki
+mi toki.
+ona li seme
+ona li tawa tomo ona
+sina lukin e seme
+mi lukin e waso
+
+### "relative clauses"
+jan ni li pona tawa mi: ona li mama e kasi
+soweli li lukin e waso ni: ona li tawa lon ma kasi
+jan li mama e kasi. jan ni li pona tawa mi
+jan li mama e kasi. ona li pona tawa mi
+waso li tawa lon ma kasi. soweli li lukin e waso ni
+waso li tawa lon ma kasi. soweli li lukin e ona
+
+### ordinals
+sina jan nanpa wan lon tomo ni
+ilo nanpa wan li pona. ilo nanpa tu tu li pona ala
+
+### comparisons
+jan Ipe li suli. jan Sunsi li lili
+tomo mi la tomo sina li loje mute
+pona la toki ni li nanpa wan
+toki ni li pona nanpa wan
+
+### transitives
+mi tomo e waso
+mi pona e tomo
+mi tomo e waso
+mi luka e soweli len
+mi tomo e waso
+sina telo e sina
+
+### context
+jan pi toki pona
+mi o tawa
+
+
+## in-depth
+
+### more info on particles
+#### the particle en
+jan en soweli li sama mute
+sina en mi li toki
+tenpo mute la kon en telo li wawa
+jan An en jan Pita en jan Sen en jan Ton li lon
+
+#### the particle li
+mi pali
+pali mi li pona
+mi taso li lon tomo
+sina en mi li toki
+soweli li suwi
+mi kama. mi oko. mi anpa
+ona li pali mute li lape lili
+
+#### the particle e
+soweli li pakala e kasi
+mi lukin e mun
+mi pali lon tomo
+mi pali e tomo
+ona li tawa tomo
+ona li tawa e tomo
+waso li mama e waso lili
+jan Ali li sona e toki Alapi e toki Lasina e toki Inli e toki Putonwa
+
+
+
+
+
+# ike a!
