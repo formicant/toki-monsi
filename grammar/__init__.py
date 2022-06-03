@@ -12,19 +12,19 @@ word_boundary = reg(re.compile(r'\b[^A-Za-z]*'))
 def word(w: str) -> Parser[str, str]:
     return lit(w) << word_boundary
 
-def one_of_words(*ws: str) -> Parser[str, str]:
+def any_of_words(*ws: str) -> Parser[str, str]:
     words = [word(w) for w in ws]
     return first(*words)
 
 
-class TokiPonaParsers(TextParsers, whitespace=r'\s*'):
+class TokiPonaParsers(TextParsers, whitespace=None):
     # TODO: implement the grammar
     
-    non_content_word = one_of_words('a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi')
+    # word categories
     
-    pronoun = one_of_words('mi', 'sina')
+    pronoun = any_of_words('mi', 'sina')
     
-    content_word = one_of_words(
+    content_word = any_of_words(
         'akesi',   'ala',     'alasa',   'ale',     'ali',     'anpa',
         'ante',    'awen',    'esun',    'ijo',     'ike',     'ilo',
         'insa',    'jaki',    'jan',     'jelo',    'jo',      'kala',
@@ -50,12 +50,22 @@ class TokiPonaParsers(TextParsers, whitespace=r'\s*'):
             ( (?!ji|ti|wo|wu)[jklmnpstw][aeiou] (?!nn)n? )* \b
         ''', flags=re.VERBOSE))
     
+    # numerals
+    
+    simple_numeral = any_of_words('wan', 'tu')
+    numeral = word('tu') & simple_numeral | simple_numeral | word('luka') & opt(numeral)
+    para_numeral = any_of_words('ala', 'mute', 'pini', 'kama')
+    ordinal = word('nanpa') & (numeral | para_numeral)
+    
+    # debug
+    
+    non_content_word = any_of_words('a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi')
     word = non_content_word | pronoun | content_word | proper_noun
     
     sentence = rep1(word)
 
 
 if __name__ == '__main__':
-    sentence = 'toki pona'
-    result = TokiPonaParsers.sentence.parse(sentence).or_die()
+    sentence = 'nanpa luka luka tu wan'
+    result = TokiPonaParsers.ordinal.parse(sentence).or_die()
     print(result)
