@@ -10,6 +10,7 @@ sina li pona
 
 ## incorrect use of e
 
+e
 mi moku e
 mi e moku e kili
 e kili
@@ -17,6 +18,7 @@ soweli li e moku
 
 ## incorrect use of la
 
+la
 noka la 
 la kon
 mi la sina la ona
@@ -32,6 +34,7 @@ tau popolam
 
 ## incorrect use of pi
 
+pi
 nanpa pi li tu wan
 pi li
 la pi
