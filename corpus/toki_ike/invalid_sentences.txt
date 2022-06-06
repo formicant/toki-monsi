@@ -7,3 +7,10 @@ ona li li pona
 ona li pona li
 mi li pona
 sina li pona
+
+## incorrect use of e
+
+mi moku e
+mi e moku e kili
+e kili
+soweli li e moku 
