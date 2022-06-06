@@ -15,10 +15,15 @@ mi e moku e kili
 e kili
 soweli li e moku 
 
-# incorrect use of la
+## incorrect use of la
 
 noka la 
 la kon
 mi la sina la ona
 la la la
 o la la
+
+## miscellaneous non toki pona phrases
+
+бетономешалка 
+ilo бетономешалка li 123 tawa mi
