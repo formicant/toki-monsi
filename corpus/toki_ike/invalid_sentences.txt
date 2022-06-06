@@ -28,3 +28,11 @@ o la la
 бетономешалка 
 ilo бетономешалка li 123 tawa mi
 SITELEN SULI LI PONA TAWA MI
+tau popolam
+
+## incorrect use of pi
+
+nanpa pi li tu wan
+pi li
+la pi
+mi jan pi tenpo 
