@@ -194,7 +194,7 @@ seme li sin?
 mi tawa.
 tawa pona.
 o toki ala. o pali.
-jan Mosima o, ni li soweli sina anu seme?
+jan Mosima o! ni li soweli sina anu seme?  # in pu, ',' is used instead of '!'
 o moku ala e kili mi.
 sina pilin ike tan seme?
 sewi o pana e pona tawa mi.

@@ -95,8 +95,7 @@ class TokiPonaParsers(TextParsers, whitespace=None):
     
     sentence = longest(
         rep(context_phrase & word('la')) & main_phrase,
-        word('taso') & sentence,
-        subject_phrase & word('o') & sentence
+        word('taso') & sentence
     )
 
 
