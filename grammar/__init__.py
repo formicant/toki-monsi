@@ -7,7 +7,7 @@ def is_valid(sentence: str) -> bool:
     return isinstance(result, Success)
 
 
-word_boundary = reg(re.compile(r'\b[^A-Za-z]*'))
+word_boundary = reg(re.compile(r'\b\W*'))
 
 def word(w: str) -> Parser[str, str]:
     return lit(w) << word_boundary
@@ -51,7 +51,7 @@ class TokiPonaParsers(TextParsers, whitespace=None):
     proper_noun = reg(re.compile(
         r'''( (?!Ji|Ti|Wo|Wu)[JKLMNPSTW][aeiou] | [AEIOU] ) (?!nn)n?
             ( (?!ji|ti|wo|wu)[jklmnpstw][aeiou] (?!nn)n? )*
-            \b[^A-Za-z]*
+            \b\W*
         ''', flags=re.VERBOSE))
     
     # noun phrase
