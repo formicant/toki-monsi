@@ -1,106 +1,84 @@
 import re
 from parsita import TextParsers, Parser, Success
-from parsita import lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred, success
+from parsita import lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred
 
-def is_valid(sentence: str) -> bool:
-    result = TokiPonaParsers.sentence.parse(sentence)
-    return isinstance(result, Success)
+class TokiPonaGrammar:
+    def __init__(self, word_list: list[str]):
+        word_boundary = reg(re.compile(r'\b\W*'))
 
+        def word(w: str) -> Parser[str, str]:
+            return lit(w) << word_boundary
 
-word_boundary = reg(re.compile(r'\b\W*'))
+        def any_of_words(*ws: str) -> Parser[str, str]:
+            words = [word(w) for w in ws]
+            return first(*words)
 
-def word(w: str) -> Parser[str, str]:
-    return lit(w) << word_boundary
+        def is_not_pronoun(subject_phrase_result):
+            return subject_phrase_result not in [[[['mi', []]]], [[['sina', []]]]]  # oh god!
 
-def any_of_words(*ws: str) -> Parser[str, str]:
-    words = [word(w) for w in ws]
-    return first(*words)
+        grammatical_words = { 'a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi' }
+        
+        content_words = [w for w in word_list if w not in grammatical_words]
 
-def is_not_pronoun(subject_phrase_result):
-    return subject_phrase_result not in [[[['mi', []]]], [[['sina', []]]]]  # oh god!
-
-
-class TokiPonaParsers(TextParsers, whitespace=None):
-    
-    # word categories
-    
-    preposition  = any_of_words('lon', 'tawa', 'tan', 'kepeken', 'sama')
-    
-    content_word = any_of_words(
-        'akesi',   'ala',     'alasa',   'ale',     'ali',     'anpa',
-        'ante',    'awen',    'esun',    'ijo',     'ike',     'ilo',
-        'insa',    'jaki',    'jan',     'jelo',    'jo',      'kala',
-        'kalama',  'kama',    'kasi',    'ken',     'kepeken', 'kili',
-        'kiwen',   'ko',      'kon',     'kule',    'kulupu',  'kute',
-        'lape',    'laso',    'lawa',    'len',     'lete',    'lili',
-        'linja',   'lipu',    'loje',    'lon',     'luka',    'lukin',
-        'lupa',    'ma',      'mama',    'mani',    'meli',    'mi',
-        'mije',    'moku',    'moli',    'monsi',   'mu',      'mun',
-        'musi',    'mute',    'namako',  'nanpa',   'nasa',    'nasin',
-        'nena',    'ni',      'nimi',    'noka',    'oko',     'olin',
-        'ona',     'open',    'pakala',  'pali',    'palisa',  'pan',
-        'pana',    'pilin',   'pimeja',  'pini',    'pipi',    'poka',
-        'poki',    'pona',    'pu',      'sama',    'seli',    'selo',
-        'seme',    'sewi',    'sijelo',  'sike',    'sin',     'sina',
-        'sinpin',  'sitelen', 'sona',    'soweli',  'suli',    'suno',
-        'supa',    'suwi',    'tan',     'taso',    'tawa',    'telo',
-        'tenpo',   'toki',    'tomo',    'tu',      'unpa',    'uta',
-        'utala',   'walo',    'wan',     'waso',    'wawa',    'weka',
-        'wile')
-    
-    proper_noun = reg(re.compile(
-        r'''( (?!Ji|Ti|Wo|Wu)[JKLMNPSTW][aeiou] | [AEIOU] ) (?!nn)n?
-            ( (?!ji|ti|wo|wu)[jklmnpstw][aeiou] (?!nn)n? )*
-            \b\W*
-        ''', flags=re.VERBOSE))
-    
-    # noun phrase
-    
-    modifier = longest(
-        word('pi') & content_word & rep1(modifier),
-        any_of_words('kin', 'a'),
-        proper_noun,
-        content_word
-    )
-    
-    noun_phrase = rep1sep(content_word & rep(modifier), word('anu'))
-    
-    subject_phrase = rep1sep(noun_phrase, word('en'))
-    
-    # verb phrase
-    
-    direct_object = word('e') & noun_phrase
-    
-    verb_phrase = noun_phrase & rep(direct_object)
-    
-    # sentence
-    
-    context_or_main_phrase = longest(
-        any_of_words('mi', 'sina') & verb_phrase,
-        word('nimi') & opt(modifier) & rep1(word('li') & (proper_noun | verb_phrase)),
-        pred(subject_phrase, is_not_pronoun, 'non-pronoun subject') & rep1(word('li') & verb_phrase),
-        subject_phrase
-    )
-    
-    context_phrase = longest(
-        any_of_words('anu', 'kin'),
-        context_or_main_phrase
-    )
-    
-    main_phrase = longest(
-        rep1(word('a')),
-        opt(subject_phrase) & word('o') & repsep(verb_phrase, word('o')),
-        context_or_main_phrase
-    )
-    
-    sentence = longest(
-        rep(context_phrase & word('la')) & main_phrase,
-        word('taso') & sentence
-    )
+        class TokiPonaParser(TextParsers, whitespace=None):
+            
+            # word categories
+            
+            content_word = any_of_words(*content_words)
+            
+            proper_noun = reg(re.compile(
+                r'''( (?!Ji|Ti|Wo|Wu)[JKLMNPSTW][aeiou] | [AEIOU] ) (?!nn)n?
+                    ( (?!ji|ti|wo|wu)[jklmnpstw][aeiou] (?!nn)n? )*
+                    \b\W*
+                ''', flags=re.VERBOSE))
+            
+            # noun phrase
+            
+            modifier = longest(
+                word('pi') & content_word & rep1(modifier),
+                any_of_words('kin', 'a'),
+                proper_noun,
+                content_word
+            )
+            
+            noun_phrase = rep1sep(content_word & rep(modifier), word('anu'))
+            
+            subject_phrase = rep1sep(noun_phrase, word('en'))
+            
+            # verb phrase
+            
+            direct_object = word('e') & noun_phrase
+            
+            verb_phrase = noun_phrase & rep(direct_object)
+            
+            # sentence
+            
+            context_or_main_phrase = longest(
+                any_of_words('mi', 'sina') & verb_phrase,
+                word('nimi') & opt(modifier) & rep1(word('li') & (proper_noun | verb_phrase)),
+                pred(subject_phrase, is_not_pronoun, 'non-pronoun subject') & rep1(word('li') & verb_phrase),
+                subject_phrase
+            )
+            
+            context_phrase = longest(
+                any_of_words('anu', 'kin'),
+                context_or_main_phrase
+            )
+            
+            main_phrase = longest(
+                rep1(word('a')),
+                opt(subject_phrase) & word('o') & repsep(verb_phrase, word('o')),
+                context_or_main_phrase
+            )
+            
+            sentence = longest(
+                rep(context_phrase & word('la')) & main_phrase,
+                word('taso') & sentence
+            )
+        
+        self.parser = TokiPonaParser
 
 
-if __name__ == '__main__':
-    sentence = 'jan Mosima o, ni li soweli sina anu seme'
-    parser = TokiPonaParsers.sentence
-    result = parser.parse(sentence).or_die()
-    print(result)
+    def is_valid(self, sentence: str) -> bool:
+        result = self.parser.sentence.parse(sentence)
+        return isinstance(result, Success)
