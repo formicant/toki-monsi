@@ -5,21 +5,21 @@ from parsita import lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, p
 class TokiPonaGrammar:
     def __init__(self, word_list: list[str]):
         word_boundary = reg(re.compile(r'\b\W*'))
-
+        
         def word(w: str) -> Parser[str, str]:
             return lit(w) << word_boundary
-
+        
         def any_of_words(*ws: str) -> Parser[str, str]:
             words = [word(w) for w in ws]
             return first(*words)
-
+        
         def is_not_pronoun(subject_phrase_result):
             return subject_phrase_result not in [[[['mi', []]]], [[['sina', []]]]]  # oh god!
-
+        
         grammatical_words = { 'a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi' }
         
         content_words = [w for w in word_list if w not in grammatical_words]
-
+        
         class TokiPonaParser(TextParsers, whitespace=None):
             
             # word categories
