@@ -1,3 +1,6 @@
+# mypy: ignore-errors
+# flake8: noqa F821
+
 import re
 from parsita import TextParsers, Parser, Success
 from parsita import lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred
