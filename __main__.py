@@ -1,15 +1,15 @@
 import argparse
 from typing import Optional, Callable, Any
 from timing import Timing
-from words import pu_words
+from words import pu_words, ku_suli_words, ku_lili_words
 from palindrome import PalindromeGenerator
 from grammar import TokiPonaGrammar
 
-def generate_palindromes(max_word_count: int, check_grammar: bool, sort_criterion: str, file_name: Optional[str]=None):
+def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, sort_criterion: str, file_name: Optional[str]=None):
     if file_name:
         print(f'Generating palindromes with <= {max_word_count} words...')
     
-    word_list = pu_words
+    word_list = get_word_list(words)
     
     timing = Timing()
     
@@ -41,6 +41,18 @@ def generate_palindromes(max_word_count: int, check_grammar: bool, sort_criterio
         print(timing)
 
 
+def get_word_list(value: str) -> list[str]:
+    match value:
+        case 'p' | 'pu':
+            return pu_words
+        case 's' | 'ku-suli':
+            return pu_words + ku_suli_words
+        case 'l' | 'ku-lili':
+            return pu_words + ku_suli_words + ku_lili_words
+        case _:
+            raise Exception('invalid word list')
+
+
 def get_sort_key(value: str) -> Callable[[str], Any]:
     match value:
         case 'a' | 'alphabetical':
@@ -67,10 +79,11 @@ def write_to_file(file_name: str, palindromes: list[str]):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generates palindromes in toki pona.')
     parser.add_argument('max_word_count', type=int, help='max word count')
+    parser.add_argument('-w', '--words', default='pu', type=str, help='word list: pu (default), ku-suli, ku-lili')
     parser.add_argument('-g', '--grammar', action='store_true', help='check grammar')
     parser.add_argument('-s', '--sort', type=str, help='result sorting: A[lphabetical], L[ength], or W[ord-count]')
     parser.add_argument('-o', '--output', type=str, help='output file (stdout if not specified)')
     
     args = parser.parse_args()
     
-    generate_palindromes(args.max_word_count, args.grammar, args.sort, args.output)
+    generate_palindromes(args.max_word_count, args.words, args.grammar, args.sort, args.output)
