@@ -80,8 +80,8 @@ class TokiPonaGrammar:
             )
         
         self.parser = TokiPonaParser
-
-
+    
+    
     def is_valid(self, sentence: str) -> bool:
         result = self.parser.sentence.parse(sentence)
         return isinstance(result, Success)

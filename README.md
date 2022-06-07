@@ -2,7 +2,7 @@
 
 ## Requirements:
 
-- python 3.9 or later
+- python 3.10
 - parsita
 - pytest
 
