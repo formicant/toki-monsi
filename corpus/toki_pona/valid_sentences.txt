@@ -1,2 +1,8 @@
 # Additional examples of valid sentences
 
+## `taso`
+
+### `taso` as 'but'
+taso mi moku e kasi
+### `taso` as subject
+taso li ike

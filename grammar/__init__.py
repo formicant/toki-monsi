@@ -75,22 +75,29 @@ class TokiPonaParsers(TextParsers, whitespace=None):
     
     # sentence
     
-    context_phrase = longest(
-        any_of_words('anu', 'kin'),
+    context_or_main_phrase = longest(
         any_of_words('mi', 'sina') & verb_phrase,
+        word('nimi') & opt(modifier) & rep1(word('li') & (proper_noun | verb_phrase)),
         pred(subject_phrase, is_not_pronoun, 'non-pronoun subject') & rep1(word('li') & verb_phrase),
-        subject_phrase
-    ) & word('la')
-    
-    main_phrase = longest(
-        rep1(word('a')),
-        any_of_words('mi', 'sina') & verb_phrase,
-        pred(subject_phrase, is_not_pronoun, 'non-pronoun subject') & rep1(word('li') & verb_phrase),
-        opt(subject_phrase) & word('o') & repsep(verb_phrase, word('o')),
         subject_phrase
     )
     
-    sentence = rep(context_phrase) & main_phrase
+    context_phrase = longest(
+        any_of_words('anu', 'kin'),
+        context_or_main_phrase
+    )
+    
+    main_phrase = longest(
+        rep1(word('a')),
+        opt(subject_phrase) & word('o') & repsep(verb_phrase, word('o')),
+        context_or_main_phrase
+    )
+    
+    sentence = longest(
+        rep(context_phrase & word('la')) & main_phrase,
+        word('taso') & sentence,
+        subject_phrase & word('o') & sentence
+    )
 
 
 if __name__ == '__main__':
