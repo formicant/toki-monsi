@@ -58,6 +58,35 @@ o la la
 
 pi
 nanpa pi li tu wan
-pi li
-la pi
+pi li pona
+ken la pi
 mi jan pi tenpo 
+mi moku pi e telo
+
+## incorrect use of `en`
+
+en
+mi en
+en sina
+sina en mi lukin e ona
+pipi li lili en jaki
+mi moku e pan en telo
+ni li pona tawa mi en sina
+suno li seli en mun li lete
+
+## incorrect use of `anu`
+
+anu
+lon anu
+anu moli
+ken la anu
+ni li sowli anu li akesi
+mi moku e kili anu e pan
+
+## incorrect use of proper nouns
+
+Kanse
+Sonja Lan
+ona li Iwan
+mi olin e Lisa
+mi en Napolejon li jan suli
