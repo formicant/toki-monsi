@@ -1,3 +1,24 @@
+# toki pona grammar parser should consider these sentenses invalid
+
+## non toki pona words
+
+бетономешалка 
+ilo бетономешалка li 123 tawa mi
+SITELEN SULI LI PONA TAWA MI
+tau popolam
+
+## incorrect proper nouns
+
+ma mewika
+jan Quixote
+jan Epawam
+jan Kianu
+ma Ukajina
+jan Watimi
+jan Wonka
+ma Sawudi
+jan Anna
+
 ## incorrect using of `li`
 
 li
@@ -8,15 +29,23 @@ ona li pona li
 mi li pona
 sina li pona
 
-## incorrect use of e
+## incorrect use of `e`
 
 e
 mi moku e
 mi e moku e kili
 e kili
-soweli li e moku 
+soweli li e moku
+jan pi moku e jan
 
-## incorrect use of la
+## incorect use of `o`
+
+ona o pali li moku
+ona li pali o moku
+ona o o pali
+o pali o
+
+## incorrect use of `la`
 
 la
 noka la 
@@ -24,14 +53,7 @@ la kon
 la la la
 o la la
 
-## miscellaneous non toki pona phrases
-
-бетономешалка 
-ilo бетономешалка li 123 tawa mi
-SITELEN SULI LI PONA TAWA MI
-tau popolam
-
-## incorrect use of pi
+## incorrect use of `pi`
 
 pi
 nanpa pi li tu wan
