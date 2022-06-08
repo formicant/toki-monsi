@@ -71,7 +71,7 @@ def get_sort_key(value: str) -> Callable[[str], Any]:
         case 'lm' | 'language model':
             return LanguageModel().score_sentence
         case _:
-            raise Exception('invalid sorting criterion')
+            raise ValueError('invalid sorting criterion')
 
 
 def write_to_stdout(palindromes: list[str]):
