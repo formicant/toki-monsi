@@ -4,6 +4,8 @@ from timing import Timing
 from words import pu_words, ku_suli_words, ku_lili_words
 from palindrome import PalindromeGenerator
 from grammar import grammar_filter
+from language_model.language_model import LanguageModel
+
 
 def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, sort_criterion: str, file_name: Optional[str]=None):
     if file_name:
@@ -49,7 +51,7 @@ def get_word_list(value: str) -> list[str]:
         case 'l' | 'ku-lili':
             return pu_words + ku_suli_words + ku_lili_words
         case _:
-            raise Exception('invalid word list')
+            raise ValueError(f'invalid word list')
 
 
 def get_sort_key(value: str) -> Callable[[str], Any]:
@@ -60,6 +62,8 @@ def get_sort_key(value: str) -> Callable[[str], Any]:
             return lambda s: (len(s), s)
         case 'w' | 'word-count':
             return lambda s: (s.count(' '), s)
+        case 'lm' | 'language model':
+            return LanguageModel().score_sentence
         case _:
             raise Exception('invalid sorting criterion')
 
