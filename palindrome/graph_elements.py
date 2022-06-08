@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass(frozen=True)
 class Node:
     """ Graph node representing a class of palindrome fragments with a common tail.
@@ -9,10 +10,10 @@ class Node:
     """
     tail: str
     offset: int
-    
+
     def __post_init__(self):
-        assert(len(self.tail) == abs(self.offset))
-    
+        assert (len(self.tail) == abs(self.offset))
+
     def __repr__(self):
         return f'{self.tail}-' if self.offset >= 0 else f'-{self.tail}'
 
@@ -24,7 +25,7 @@ class StartEdge:
     """
     word: str
     to_node: Node
-    
+
     def __repr__(self):
         return f'({self.word})→ {self.to_node}'
 
@@ -38,6 +39,6 @@ class Edge:
     from_node: Node
     word: str
     to_node: Node
-    
+
     def __repr__(self):
         return f'{self.from_node} ({self.word})→ {self.to_node}'

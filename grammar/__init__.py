@@ -4,6 +4,7 @@ from .parser import TokiPonaParser
 
 MIN_SENTENCE_COUNT_FOR_MULTIPROCESSING = 500
 
+
 def grammar_filter(sentences: list[str]) -> list[str]:
     if len(sentences) < MIN_SENTENCE_COUNT_FOR_MULTIPROCESSING:
         # single process

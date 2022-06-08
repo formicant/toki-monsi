@@ -1,5 +1,7 @@
-import pytest
 from itertools import chain, product
+
+import pytest
+
 from palindrome import PalindromeGenerator
 from words import pu_words
 
@@ -11,8 +13,10 @@ def is_palindrome(words: tuple[str, ...]) -> bool:
     return caseless_joined == caseless_joined[::-1]
 
 
-def generate_palindromes_naïvely(word_list: list[str], max_word_count: int) -> list[str]:
-    word_combinations = chain.from_iterable(product(word_list, repeat=i) for i in range(1, max_word_count + 1))
+def generate_palindromes_naïvely(
+        word_list: list[str], max_word_count: int) -> list[str]:
+    word_combinations = chain.from_iterable(
+        product(word_list, repeat=i) for i in range(1, max_word_count + 1))
     return [' '.join(words) for words in word_combinations if is_palindrome(words)]
 
 
