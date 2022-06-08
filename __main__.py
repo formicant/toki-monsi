@@ -3,7 +3,7 @@ from typing import Optional, Callable, Any
 from timing import Timing
 from words import pu_words, ku_suli_words, ku_lili_words
 from palindrome import PalindromeGenerator
-from grammar import TokiPonaGrammar
+from grammar import grammar_filter
 
 def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, sort_criterion: str, file_name: Optional[str]=None):
     if file_name:
@@ -20,8 +20,7 @@ def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, s
     timing.mark('generation')
     
     if check_grammar:
-        grammar = TokiPonaGrammar(word_list)
-        palindromes = [p for p in palindromes if grammar.is_valid(p)]
+        palindromes = grammar_filter(palindromes, word_list)
         timing.mark('grammar')
     
     if sort_criterion:
