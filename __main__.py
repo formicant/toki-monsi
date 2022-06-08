@@ -20,7 +20,7 @@ def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, s
     timing.mark('generation')
     
     if check_grammar:
-        palindromes = grammar_filter(palindromes, word_list)
+        palindromes = grammar_filter(palindromes)
         timing.mark('grammar')
     
     if sort_criterion:

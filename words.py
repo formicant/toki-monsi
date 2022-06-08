@@ -186,7 +186,7 @@ ku_lili_words = [
     'umesu',
     'unu',
     'usawi',
-    'wa  ',
+    'wa',
     'waleja',
     'wasoweli',
     
