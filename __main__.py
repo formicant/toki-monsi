@@ -4,7 +4,7 @@ from timing import Timing
 from words import pu_words, ku_suli_words, ku_lili_words
 from palindrome import PalindromeGenerator
 from grammar import grammar_filter
-from language_model.language_model import LanguageModel
+from language_model import LanguageModel
 
 
 def generate_palindromes(max_word_count: int, words: str, check_grammar: bool, sort_criterion: str, file_name: Optional[str]=None):
