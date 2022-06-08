@@ -1,6 +1,6 @@
 import multiprocessing
 from parsita import Success
-from .toki_pona_grammar import TokiPonaParser
+from .parser import TokiPonaParser
 
 MIN_SENTENCE_COUNT_FOR_MULTIPROCESSING = 500
 
