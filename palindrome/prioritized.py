@@ -1,9 +1,11 @@
 from __future__ import annotations
+
 from dataclasses import dataclass
 from functools import total_ordering
 from typing import TypeVar, Generic
 
 T = TypeVar('T')
+
 
 @total_ordering
 @dataclass(frozen=True)

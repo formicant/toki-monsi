@@ -1,6 +1,8 @@
 import pytest
+
 from corpus import get_valid_sentences, get_invalid_sentences
 from grammar import is_valid
+
 
 @pytest.mark.parametrize('sentence', get_valid_sentences())
 def test_valid_sentences(sentence: str):

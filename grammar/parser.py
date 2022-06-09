@@ -3,23 +3,30 @@
 
 import re
 from parsita import TextParsers, Parser
-from parsita import lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred
+from parsita import (
+    lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred
+)
 
 word_boundary = reg(re.compile(r'\b\W*'))
 
+
 def word(w: str) -> Parser[str, str]:
     return lit(w) << word_boundary
+
 
 def any_of_words(*ws: str) -> Parser[str, str]:
     words = [word(w) for w in ws]
     return first(*words)
 
+
 def is_not_pronoun(subject_phrase_result):
     return subject_phrase_result not in [[[['mi', []]]], [[['sina', []]]]]  # oh god!
 
-grammatical_words = { 'a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi' }
+
+grammatical_words = { 'a', 'anu', 'e', 'en', 'kin', 'la', 'li', 'o', 'pi'}
 cased_words = ['Pingo', 'kalamARR']
 content_word_regex = ''.join(rf'(?!{w}\b)' for w in grammatical_words) + '[a-z]+|' + '|'.join(cased_words)
+
 
 class TokiPonaParser(TextParsers, whitespace=None):
     
