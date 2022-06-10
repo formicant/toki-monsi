@@ -1,0 +1,2247 @@
+# these sentences are from the toki pona split of the Mozilla Common Voice dataset.
+# we only use the train split, the dev and test are not included.
+# the Mozilla Common Voice dataset is distributed under the CC0 licence. 
+# check out their site: https://commonvoice.mozilla.org/
+
+linja lawa mi li jaki. mi wile telo e ona.
+jan li tawa lon nasin ni.
+jan Tu li luka e ko nasa lili tan jan Kuntuli.
+ma kasi suli pi kili pona li lon poka pi tomo soweli!
+ni la, mi mute la ona li suli tawa kulupu esun.
+lawa li lon ala sewi
+sina pilin ala pilin sama?
+sona ali li nasa tawa tomo sona.
+pali mi li pona ala pona tawa sina?
+jan kala li pilin nasa tan toki ni.
+ma tomo mi li lon noka pi nena suli.
+poka tomo la nasin li jaki.
+jan lawa majuna li open e lupa.
+mi lon ma Awawi.
+pakala a!
+monsuta mi li wile moku e oko mi.
+toki sina li lon.
+jan mute li pali lon lipu ni.
+waso laso li lon sewi lon luka kasi li mu pona.
+mi pali e poki pasila.
+taso, jan olin li kute ala e ni.
+mi weka tan pona.
+wile open sina li wawa e pilin suli mi tawa sina.
+jan li ken seli pona e telo ilo.
+o sike e tomo tawa lon suno.
+jan pi mani lili li jo e lili taso.
+nasa li pona.
+nasin ni li nasin sitelen sin.
+jan ala li kepeken misikeke kepeken nasin wile la, mi tu o ni.
+mi monsuta e sina, la o weka.
+sina pana e moku tawa jan lili ni.
+sina pali nasa lon tenpo ale.
+ilo pi sitelen tawa li nasa e mi.
+ni la, jan kala li pilin ike.
+sijelo pi akesi kule li jo e seme?
+ilo o, meli en tonsi en mije la sina seme?
+linja lili li ken pilin e lili moku mute lon open ale.
+mi o pali e moku!
+lon open pi tenpo suno la, majuna lawa li wile sona e ni:
+o pini e lupa suno.
+jan mute li sona e kon pi nimi ni.
+ijo luka luka tu wan li lon.
+o pilin apeja ala!
+tenpo mute la, jan mute li kepeken nimi ni.
+jan Pinija li nasa li pona.
+sina sona ala sona e toki Tosi?
+ni la, nimi jan li nasa lon toki pona.
+ona li ken ala ken moli e mi?
+ken la, tomo pona li lili.
+tenpo kama la, ilo alasa ona li tawa anpa telo!
+mi lukin lon suno insa mi.
+ona o moku ala e moku ale!
+mi lawa lon.
+sina wile la sina ken kule kepeken ilo sitelen.
+taso mi unpa ala e jan San.
+tenpo seme la mama meli sina li kama moli?
+leko lipu mute li lon poka anu weka.
+telo li kama tan sike lukin sina.
+mi pilin sama ala.
+jan ale li awen pilin pona, li awen pilin musi.
+leko ni li jasima e suno pi kule ante.
+kasi li pana e kon pona tawa jan.
+sona en kepeken li sama ala.
+jan li moli e soweli la mi wile ala kute e mu.
+ilo laso li pana e telo lete. ilo loje li pana e telo seli.
+mi kin li olin e sina.
+insa poki ni la poki ante li lon.
+o alasa mute e ni!
+ona li pana e ike tawa mi.
+uta mi li olin e sina.
+lipu mute pi tenpo kama ike la, ike li kama wawa tawa jan ale.
+jan mute pi kulupu suli li pilin ike tawa ona.
+jan Kuntuli li alasa jo e moku.
+tenpo pini la, mi wile jan suli.
+ni la, jan li sona e ni: moku li lon poka.
+soweli li mu mute, li pilin e jan Kuntuli kepeken nena ona.
+tenpo kama la mi wile lukin sin e sina.
+ona li ken toki tawa ma poka ona lon tenpo pali namako.
+kulupu loje li utala e kulupu laso.
+sina pilin ike la sina pali e seme?
+nena mama jan li awen e ko wawa.
+o ku. o pu.
+tan ni la lawa mi li lawa ala.
+len sina li lili pi mute ike tawa sina.
+ona li telo pilin taso lon insa lawa anu seme?
+tenpo sijelo la mun li kama lon.
+pilin la tenpo suno ni li ike
+ilo toki mi li wile e wawa.
+jan Ankewi o, sina wile ala wile kama lon poka mi?
+tenpo musi kulupu la jan ale pi ma tomo mi li moku e kala.
+tenpo ni la, mi pana e sona pi toki sin tu.
+lukin la, suno li kama tawa anpa.
+tan ni la, jan pi nanpa lili li wile ante e toki pona.
+nimi li tan mi.
+kulupu Wapili li jo e nimi ni taso, li awen lon pona.
+ilo li tawa e jan ale ante tawa awen pi suli linja.
+mi pana tawa ona e nimi mute lon toki pona.
+suli li lili lon tenpo nasa.
+mi jo e awen pona sama nasin telo lon pilin mi.
+tomo sina li lon seme?
+mi pilin apeja tawa ike Jan.
+jan li kepeken supa ni anu seme?
+sina kute ala kute e kalama waso?
+jan Tu en jan Kuntuli li open lukin e lipu.
+sina wile ala wile pali?
+sina kama jo e jan pona lon ni.
+majuna lawa li toki insa e ni:
+kin la, jan mute li kepeken ona.
+ko nasa li weka tan insa ona, tan sijelo ona, tan lawa ona.
+mi wile ala e ike lon tenpo ale!
+ni li pona tawa sina la, ona li pona tawa mi kin.
+taso la, ona li jo ala e olin ni.
+o weka e len sina.
+sina wile e mute sin anu seme?
+jan olin tu ni li lukin e tawa anpa suno lon poka telo.
+mi pilin e seli sijelo sina.
+mi kepeken nimi pi toki ni la sina sona ala sona e toki mi?
+tenpo ale la, lupa wan li pake lili.
+sina toki kepeken uta la sina toki ala e lon.
+o pakala ala e luka sina.
+sina wile kokosila la o tawa tomo ante.
+kili li pona tawa sijelo.
+o kute e mi!
+mi kepeken uta suwi la mi pona mute tawa mi.
+nasin pi nimi mute li pona tawa mi.
+mi ken ala ken moku e kasi ni?
+kulupu pi toki pona li jo e toki pona.
+waso mute li jo e noka jelo.
+o kama sona e nasin pi lili nanpa wan
+taso ona li lukin e ken moli.
+kon tawa li weka e len lawa sina.
+mi pilin e ni: mi pake e mi tan sewi.
+mije li ken pona tawa mije.
+suno li kama tan poka walo la ona li tawa poka pimeja.
+sina lukin e ken seme?
+jan pi nanpa lili li kepeken nimi namako.
+mi kin li wile sona e nasin.
+soweli Pikasu li jo e selo jelo.
+esun len li wile e sina.
+nasa ni li seme?
+sina toki ala e ni: sina kama tawa mi.
+sina kepeken tomo tawa telo.
+mi o sona e ike sina tan uta wan.
+lukin la, selo pan li sama jan.
+ni li musi a!
+mi wile e ni: sijelo sina li pona.
+o kepeken nimi pu taso lon lipu ni.
+jan olin li toki:
+a, ilo li suwi a.
+soweli li wile ala moli ona li wile ala lon moku sina.
+sina pilin e ni: mi kama ala sin.
+sina monsuta mute a.
+soweli li tawa kin, lon poka ona.
+lipu ni li jo e nimi tonsi e nimi mijomi e nimi melome.
+sina kin.
+sina lukin ala lukin e tomo tawa?
+o moku e kon!
+ona li wile tawa tomo ona.
+sewi li laso.
+o kipisi e lipu.
+jan ali ala li wile e olin tan jan ante.
+kulupu ni la, jan musi en jan sona en jan meso li lon.
+ala, mi wile!
+mi sitelen e sitelen lape mi lon lipu ilo tawa sona pona ona.
+mi mute li ken lukin e nimi sin pi pu ala!
+ma mi la tenpo lete li lon.
+mi pakala.
+mi toki e toki pona kepeken toki Inli, taso sina kepeken toki pona taso.
+olin li musi ala.
+tenpo ale la ma li tawa lili.
+mi wile ante e nimi mi.
+pilin li poki.
+o sona e ni, jan Kuntuli o.
+tan tenpo pini suli la telo li awen kama ala tan sewi.
+ilo o, o kalama te "ale li ante" to.
+mi kama tan ma Mewika.
+tenpo ale la mi wile lukin e ni.
+sinpin nanpa wan li toki e "kasi Sonja".
+kalama ni li seme?
+linja pi ilo sona mi li kama pakala.
+akesi seli suwi mi li suli la ona li ken lon sewi.
+akesi sina li apeja e mi lon tenpo ni.
+sina tawa lon nasin pi poka seli.
+kalama musi kin li kalama sin.
+pipi seme li pakala e sina?
+ona li awen sama.
+toki namako seme?
+ken la mi o pana e sona weka.
+mi lon tomo jaki la lipu ni li pona tawa monsi mi.
+ijo ike seme li kama?
+sina pana e seme tawa jan sama sina lon tenpo Santa ni?
+soweli li mu anu seme?
+ike li lon a.
+ijo li ma ala li suno ala la, ona li mun.
+tomo tawa sina li ike lukin.
+tenpo lili la mi kama sin.
+o kama sona kalama uta musi
+taso nasin ni li pakala e ijo mute tan nasa ona.
+suno li weka tan tomo.
+ona tu li olin mute e toki pona.
+o tawa e mi tawa sewi.
+sina moli la sina ken ala toki.
+ona li ken "jan" ala, sama "kala Asi".
+mi o moli ala.
+ilo o, o moli e linja suno kule.
+ma Lowasi li pona lukin.
+mi tan ma Netelan.
+o kepeken "ma Sajusi".
+ni la, jan Telen li lon tomo esun pi telo wawa.
+lukin la, jan Kuntuli li pilin monsuta lili.
+sina ali li pona mute a!
+mi jan olin.
+jan Santa li pana e ijo pona tawa jan pi ma ale.
+mi o len, taso lon poka li ala kin.
+ni la, mi tu li toki kepeken ilo waso, kepeken lipu.
+lipu pi kulupu nasin lawa li lon nasin ni.
+mi pakala ala e sina taso.
+o pilin e nena.
+moku mi li lon poki.
+o kepeken nimi pona.
+mi o kepeken sitelen Lasina anu sitelen pona?
+seli li pakala e tomo.
+kijetesantakalu li lanpan e moku tan poki jaki mi.
+o sitelen e wile sina lon lipu ni.
+esun tomo li wile e mani mute a lon ma Mewika.
+mi kin li wile pini e ona.
+seli sewi ni, o supa!
+tenpo pini la jan ali li alasa e soweli e kili.
+sina ken ala pini e ni.
+mi wile ala lukin e lon.
+soweli ko li kalama suwi
+taso la, jan ni li jo ala e nimi pi kon olin ona.
+mi tawa tan tomo ni kepeken nasin olin.
+mi wile e pan li wile tawa esun.
+sitelen tawa ni li pona tawa mi.
+pilin en lawa jan kin la ijo li sama ni.
+o moku e kasi taso e soweli ala.
+moku li pona.
+len lawa sina li pona lukin.
+jan sin o kama pona tawa ma pona pi toki pona!
+sitelen tawa pi sona pi toki pona tan jan Misali li pakala lili.
+o lukin lon insa pi poki sina.
+mun li suli la olin li kama tawa jan!
+mi sona ala e ni.
+wile ni li pona ala.
+o toki ala sin e ni tawa jan ante.
+jan ale li pilin pona lon tenpo ni.
+mi moku lili e kili lili.
+pakala, jan Telen li pilin ike a tan pali ala ona.
+sina toki e nimi ni kepeken toki pona kepeken nasin seme?
+sina pilin ala pilin e ni?
+sina ken kama tawa kulupu musi ni.
+ilo o, o kalama musi pi pilin lape.
+tenpo seme la pali li pini?
+tenpo ni la sina kepeken ilo nasa seme?
+waso mute li tawa lon sewi
+poka ni en pona ante li ike tawa mi.
+kala pi noka luka san li sona li musi sama jan.
+mi pilin e ni: sina jan ike.
+tenpo suno ale la, jan kala li tawa telo.
+jan seme li wile e lili pi suwi pan.
+taso mi pakala ala.
+kulupu sona li pali e lipu pi sona suli.
+taso kulupu unpa li lon ala.
+ilo o, ojuta li seme?
+selo pi lipu ni li laso.
+soweli li tawa mute, li nena mute e lipu.
+jan Kuntuli li pake mute.
+sina wile ala moku mute e ni. ni li ken ike e sijelo sina.
+sina pali e ale la ni li pona mute tawa mi.
+ona li awen lon tenpo mute mute.
+mi pilin ike ala tan moli.
+sina wile sona e ni la o ku.
+sina moku e seme?
+sina alasa kipisi e ona la ona li kama pakala taso.
+pipi ni li unpa ala li pali e pipi lili pi mama wan taso.
+kalama wan li ike tawa sina.
+seli li pakala e ijo, la telo taso li ken pana e pona.
+taso, mute jan li ante lon kama sona ante.
+o lukin e ni: sina kama jo e pali ante.
+lon. ni li pona.
+jan sona li ken sona pona e ike ona, li ken pona e ona.
+ni la, sina ken pana e poki lili sin!
+musi Manka la ale li leko.
+mi wile e, n... e leko musi.
+mi toki e ni tawa sina: o kama tawa mi.
+jan Kuntuli li pilin monsuta lon lukin.
+jan Eki la ku li pona.
+jan li pilin ike a.
+mi kin.
+o lanpan ala e ijo mi.
+o pake e pilin ike tawa jan Kuntuli!
+mi toki e ni: o pini.
+mi mute o tawa tomo.
+a, mi mute li pini alasa e ona.
+meli ni li pona tawa sina.
+ilo o, o open e ilo tenpo Pomotolo.
+palisa nanpa tu en palisa nanpa tu wan taso li lon ala insa luka.
+soweli mi li lape lon supa monsi.
+o pini lape
+mi lon poka ona.
+anu la, ken la ni li sama sitelen tawa pi jan wan.
+tenpo suno ni la wawa ilo li weka.
+ante la, mi jo e kala wan lon tenpo pini.
+kalama suwi la, mi mute li pana e pona ali tawa nimi sewi.
+ken li weka.
+ilo o, o len e lupa lukin.
+ona li jo e seme?
+tenpo ni la mi ken ala lukin e sitelen tawa.
+mi wile weka.
+sina jo e kili anu telo nasa?
+kasi ali o moku e kon.
+jan sona li alasa e konwe lon mun mute kepeken ilo.
+tomo kiwen li wawa.
+moku pan kala pi ma Nijon li pona tawa mi.
+mi ken ala lape pona tan ni: supa lape mi li kiwen ike.
+toki pona la, seme li sin?
+jan Nesan li musi.
+kepeken waso la sina ken kama jo e soweli suli.
+nasin seme la ni li kama?
+mi wile e ni: sina lon poka mi?
+sina kepeken ala kepeken nasin pi pu taso?
+tenpo pimeja la telo mute li kama tan sewi, taso ni li pini.
+lupa suli pona li lon tomo ale.
+jan olin li toki kepeken kalama suli!
+len mi ali li loje tan toki pona mute.
+sina pini e ilo li open sin e ona anu seme?
+ona li meli suwi pi pona lukin.
+taso ken la sina awen ken ala lape.
+mi pona e sijelo sina.
+linja sike kule li loje li jelo li laso li unu.
+o pilin pona!
+mi moku lon poka sina.
+soweli en ilo nanpa li lukin pona taso e ante pi jan Kuntuli.
+ali li ante.
+ale ni li kama nasa tawa mi.
+ona li toki ala
+jan mute li tawa lon sike pi tomo leko pimeja ni.
+jan ni li pana e ike e nasa tawa sina.
+mi tu li pilin pona lon tenpo ale tan ni.
+jan li nasa.
+soweli li wile moku e sina la ni li pona ala pona tawa sina?
+nimi li ken lon linja kin.
+o tawa musi lon poka mi.
+mi wile, taso mi lukin e monsuta mi.
+a, jan Ankewi o, mi mute li kama tawa lon tenpo ni.
+o weka e ike ale tan lipu ni.
+ona li alasa sona e leko pona pana.
+sina kama e ni: mi wile moku.
+jan Ewinton li lon ma Kanata!
+tan seme la mi ken kepeken nimi taso pi luka luka tu tu?
+nanpa tu wan la, ona li tawa tenpo pi nanpa wan e ona.
+soweli li tawa sike lon lupa.
+moku li lon poka.
+nanpa en nimi li pona tawa ilo sona.
+lon tenpo suli la, jan kala li lukin e jan olin.
+mama mije mi li pana e ken tawa mi.
+nasin ni li musi li wile e pali lili tan mi.
+ken tonsi li ken jan!
+mi wile lukin e lipu ma.
+ale li pona la mi ken open sin e pali lon tenpo suno kama.
+sina ken ala ken kama lon tomo mi pi kalama musi?
+sike lukin pi waso ni li lukin e ale.
+ona li pali, taso pali namako suli li lon.
+len lawa mi li kama weka tan ni: kon tawa li wawa.
+jasima li jasima e ale.
+kiwen pimeja li pona tawa seli.
+o kama sin.
+o weka e toki len mi ali.
+ona li open e lipu ni.
+kasi suli li pana anpa e lipu ona
+sina ala li sama jan suli pi mani mute.
+jan nanpa wan li lon.
+jan olin li kama jo e luka ona, li toki:
+ni la ona li lape ala.
+insa pilin mi li sona.
+kule seme pi sike lukin li pona pi mute ale tawa sina?
+pan sina li kama jaki lon anpa.
+musi utala ale li sijelo ante.
+sina sona e ni: tan seme la mi ken ala lape sama sina.
+ale li pona a. ni li pona a.
+kala pona suwi o kama lon!
+o kute e mi, o toki tawa kala!
+lape la mi ken pali e ale.
+mi ale o musi.
+soweli li tawa ala.
+sina toki e ijo seme nasa?
+ona li awen lon.
+mama mi li nasa ala.
+mi wile e kili pi kasi suli sina la o pakala ala e mi.
+jan li kule sitelen e mi.
+ilo pali wawa li pali e tomo suli.
+kasi Sentu li toki e ni: kon Tapajalo li wile toki tawa sina.
+sina wile ante e selo pi sitelen wan tawa jan ali.
+mi olin mute e sina, la mi tawa weka tan ona ante.
+ona li ken kalama musi pona.
+luka mi li kama jaki tan pali ni.
+ni la, soweli mute li kama lon, li moli.
+jan Sonja li kepeken sona pi kama sona lon pali pi lipu ku.
+taso ona li toki e ni kin: "lipu nimi li jo e nimi ale".
+sina pona kin.
+o kokosila ala!
+sina wile e mani anu seme?
+jan Kuntuli li alasa weka tan anpa. taso alasa ona li ike.
+len sina li nasa lukin.
+mi weka.
+seli mute li lon la kiwen ni li kama telo.
+pipi li moku e kasi.
+sina ante e ijo ni.
+ilo nanpa li sona e ijo mute pi toki pona!
+telo li kama anpa tan sewi la kasi li pilin pona
+nasin tawa tomo li tawa lon sewi pi telo linja.
+olin mi o, sina jo ala jo e kala?
+ona tu li pake, li lukin taso tawa nasin.
+ona li lukin e sona mute a pi kulupu pi ilo sona.
+mi pilin sama ni: mi kama pona sin.
+sina nasa e mi.
+sona.
+sina wile pilin suwi la ni li ike tawa mi.
+len ona li kule wan taso.
+sona ala.
+jan ante li ken ala sona e ijo mi.
+jan majuna li ken ala moku.
+kute ona la, mi sama jan pi suli poka.
+o kepeken ala telo pi sike lukin sina.
+palisa pi suli poka li nanpa wan.
+jan Keli o, sina pona lukin.
+mi toki e toki pona lili, taso musi li suli e toki pona mi.
+jan Ankewi li moku lili e telo ona.
+ilo nanpa li toki mute.
+kili ni li lili li suwi.
+o weka sona e jan ale ante, o pilin pona tan lon kepeken tenpo.
+kili loje li pona tawa mi.
+musi ni la jan wan li sona e sona len.
+jan ale li ken kama jo e kipisi wan taso pi pan suwi ni.
+ilo li pilin e ni: ni li powe.
+ken la lupa ni li pakala.
+o moku e kala pona!
+musi ni la loje li pona, walo li ike.
+sinpin sitelen li lon kasi ni.
+jan pali li kama jo e lipu kasi pi sewi nanpa wan.
+mi olin toki e toki pona.
+nimi pi pu ala li suli ala.
+soweli li pake tawa, li lukin tawa tomo suli.
+ona li weka e tenpo ale sina.
+jan li mama e soweli.
+sina jo ala jo e len lawa sina.
+ni li ken ike.
+tenpo ni la, kepeken misikeke ni la, mi ken pali e ale ni!
+mi nasa tawa sina.
+jan Kuntuli li tawa poka pi jan Tu kepeken wawa.
+sina kokosila la o weka o toki Inli o toki pona ala.
+ijo li lon lawa.
+mi jan powe ala.
+o pana e poki lon supa. o pana e pan insa ona.
+olin sona li open sona.
+jan ali li sama.
+tomo tawa sina li loje nasa li wawa li mani mute li sin.
+mi ken ala toki tawa sina tan ni: mi o pali lon tenpo ni.
+jan Tu li luka tawa tomo suli.
+sinpin nanpa tu wan li toki e "kasi Panto".
+mi en sina li kama wan.
+pilin mi la mi ken ala awen lon monsi soweli.
+mi wile tawa weka.
+tenpo lili la mi kama.
+o lawa ala e ni: tenpo ale la mi wan taso.
+o pana e luka sina tawa lupa ni.
+mi wile tawa, taso mi ken ala.
+jan seme pi kulupu ni li suli?
+o nasa ala e mi.
+jan lili li ken ala moku e telo nasa.
+mi pini e kute mi tan ni: ilo toki sina li ike tawa mi.
+taso wawa kasi li pakala pona e soweli telo.
+kin la, jan suli mute li moku e telo mama pi soweli mani.
+nimi pi jan pona li suli pi mute ike.
+ona li mi.
+ni la, tenpo lili la, jan ale li pali namako.
+mi kepeken kule, la ona li pona lukin.
+mi lape ala.
+mi pilin e ni kin.
+jan Lawito li wile kama jan sewi kepeken lipu moli.
+o kute e kalama musi pi toki pona!
+mi kama tan ma Posuka. taso, mi toki lon toki Inli.
+sona suli mi o supa!
+sina powe a, ilo nanpa o.
+pilin utala la jan li toki wawa.
+wile lape mi li wawa a.
+o awen tan ni: mi wile toki tawa sina.
+ike la, musi ni li olin e nasin mani.
+tan ni la, jan kala li tawa kala, li pilin ike.
+sina toki tawa mi anu ona?
+tenpo ni la mama meli mi li tawa e mi tawa tomo sona.
+o toki e kijetesantakalu ala. o toki e ijo ante.
+mun li lon e nasin suli.
+ona li pona e ilo.
+mi kuntu kan jan poka mi.
+mi utala lon tenpo ali.
+mi olin e soweli lili suwi mi.
+sina ike tan seme?
+tenpo mute li weka la, kalama musi sin li kama ala.
+sina ken ala ken lawa e kulupu?
+jan ala li lon poka sina.
+ilo o, tomo moku seme li lon poka?
+ni la, mi alasa tawa noka.
+tenpo mun mute kama la, ona li pali e nasin pana pi weka ni.
+nimi pi soweli sina li seme?
+lawa li ko.
+telo pimeja suwi li ike tawa sijelo sina.
+ni la, jan Niki li pilin monsuta tan weka pali ken.
+jan ni li lon: ona li toki powe li lanpan li moli e jan.
+sitelen pona pi nimi "toki pona" li suwi.
+wawa ona en sewi ona li wawa mute.
+akesi tonsi kin li ken lon.
+jan kala li kama tawa ona, li toki:
+o luka ala e mi.
+mi sona ala e ni: jan seme li pali e ni.
+nimi ni li lon ala lon lipu ku?
+o tawa lon nasin.
+lipu ku li kama lon.
+mama mi a li jo e mani mute.
+toki pi nasin ni li pona ala pona tawa sina?
+telo li kama tan sewi la nasin li ko telo.
+pakala li kama tawa sina kin.
+kepeken tenpo lili la jan mije majuna li tawa lupa li open e ona.
+mi pali e lipu pi ijo pali:
+ma Pilipina la ma mute li lon telo suli.
+ona li lon sewi tan usawi ala. ni li tan ko taki.
+jan Kuntuli li luka wawa e len ona.
+jan olin li pilin utala tan ni!
+nasin mute li pona.
+seme li pona sama ni: jan li olin e jan.
+jan lili ike li kama lon poki tawa pi kili laso.
+ni li ken ike tawa kama sona.
+tenpo lili la, jan pona mi li kama lon tomo mi.
+jan seme li kepeken anu tan ni: ni li pona anu pona ala?
+sina kute ala kute e ilo toki?
+mi wile e pona sina.
+o pilin musi.
+o lukin pona.
+o weka e ona.
+ona li tawa ala tawa ma ike?
+ona li luka tawa sinpin ni.
+ken la, mi pilin pona.
+mi kama sona e nasin nanpa sin.
+sina tawa e poki mi lon seme?
+ma tomo mi li lon sewi pi nena suli.
+taso, kala li ken pana e tomo suli sin!
+ken la ma Tosi li pona tawa meli mi.
+selo mi li wile e ni: mi pilin e ona.
+o lukin e pipi loje ni.
+telo ni li seli mute a.
+jan Kunka li anu e len ona pi tenpo suno ni.
+ike! kasi ni li ike mute a.
+jan Tu li open.
+mi toki lon tomo toki.
+ona tu li tawa lupa tomo.
+ona li lukin tawa jan Tu.
+jan seme li lon ni?
+telo seli pi lipu kasi ni li pona tawa uta li pona tawa sijelo.
+kama la, o weka e toki insa lon tenpo lili.
+taso mi awen sona ala e nasin.
+toki kulupu li lon.
+o lukin tawa mi.
+taso, ona li lon seme?
+sina ken ala ken toki e sona tawa mi?
+toki pona la, toki sama li jo e ante mute.
+jan Kuntuli li pana e nanpa sin.
+sina ken ala jo ala e ona.
+kin la mi pilin pona tan toki olin ona tawa mi suli.
+ale li kama anpa, la ni li ike tawa sina en mi.
+jan ale li wile lukin e ni.
+sina pilin e seme lon tenpo ni?
+mi wile e ni: pali mi li ken musi e jan mute.
+tenpo pini la jan ale li alasa e soweli e kili.
+kulupu ni li kasi e ma seli tawa ni: ona li laso li lete.
+lipu li walo. o sitelen lon ona.
+sina wile ala wile e suwi lon moku sina?
+o monsuta ala.
+nasin utala ni li lon musi ante kin.
+suno li suno e sinpin mi.
+ni li ken ala.
+tenpo mute la jan pona li kama anpa.
+mi kipisi e kasi tan ni: ona li suli tawa linja pi wawa ilo.
+ilo kute en ilo toki en ilo sitelen li pona.
+mi wile ala awen.
+ona li ante e lawa, taso ona li wile pona taso e toki insa.
+lupa ni li suli.
+oko ante li lukin e ijo nanpa tu.
+ona li toki tawa kala, li wile e ni:
+ma li lon meso ni: suno en mun.
+sina pilin ala pilin ike lon tomo ni?
+ilo o, o kalama e lipu toki mi.
+jan Ankewi li pake lili.
+mi kin li awen lon sina.
+kin la, ma telo sina li selo.
+tenpo weka la jan ale li lawa e waso ilo.
+o jasima e olin mi!
+jan sewi li jo e linja sinpin.
+ni li telo mi!
+tenpo lon la, akesi suli li weka.
+a, ike, sona mi li weka.
+tenpo seme la sina kama tawa mi?
+pakala li nasin jan.
+mije kin li pona.
+mi pilin ike tan ni:
+mi tawa lon sinpin sina.
+jaki li lon len sina.
+ni li pona ala pona tawa moku?
+tenpo monsuta la mi len pi soweli alasa e mi.
+soweli li nena wawa e luka pi jan Tu.
+pakala ala li kama tawa sina.
+soweli li awen tawa.
+ma seme li pona tawa sina?
+mi lukin e sitelen ni la mi sona e ni.
+jan Misali li suli ala.
+tenpo ale la mi lon sona sina.
+akesi lili li suwi a.
+tawa pona!
+kasi suli li suli mute.
+wawa mun li tawa e telo pi telo suli.
+moku linja loje li suwi.
+ona li musi a!
+telo sewi li kama anpa la o kepeken len pona.
+mi jo awen e mani.
+wawa la, jan Tu li lukin tawa anpa, li alasa tawa e jan Kuntuli.
+jan li pana ala e nimi ni pi pu ala.
+ilo nanpa li weka e nanpa.
+pipi mute li tomo tawa telo mi.
+sina pilin ike la, o lape!
+ijo ni li kama la ni li kiwen tawa mi.
+wawa li lon ale.
+tomo suno li nasin e tomo tawa telo.
+tenpo pimeja li kama tawa ma tomo la suno li kama pini.
+kala li toki:
+o open e lupa!
+jan Tu li kama luka e kasi, li pana e ona tawa uta ona.
+mu mu mu, mi wile pona e mi kepeken nasin.
+o pana e suwi tawa mi!
+mi toki e nimi pi sewi pi pana suli pi olin suli.
+tenpo ni la mi ken ala pu.
+ilo nanpa li ken weka e nanpa.
+ni la, pu la, nimi sin li pona.
+jan li awen lon open ona, li tawa ala.
+lukin mi la, jan esun li tawa wawa lon poka waso kepeken tenpo meso.
+jan ala li wile e mi.
+suno ni la mi wile toki lon akesi pi ante kule.
+sina ni la, pilin mi li ni:
+taso kepeken tenpo pi mute ni la, mi ken lukin e ni.
+kasi ike mute li lon.
+ali li lon olin.
+jan pi mute lili li lon tomo lili pona.
+jan Ankewi li luka e ilo Supanpo lili.
+sina sona e toki ni la sina sona e toki pona!
+pilin mi la, ni li ken ike mute a.
+sina wile kama sona e toki Epelanto, la ni li pona kin tawa mi.
+lipu ni li tan ala jan pi lipu “nimi ale pona”.
+jan li pini e ni.
+mi lukin e uta sina la mi pilin pona.
+kon ona li jaki.
+ken la jan o open ala e uta ona lon tenpo ale?
+jan ike li lanpan e mani mute a tan tomo mani.
+mi tu li wile lawa tan seme?
+ijo lon tu tu li lon: soweli, pipi, akesi, jan.
+pipi pi noka mute li ken pali e linja sike walo.
+mi wile ala toki tawa sina.
+tan toki ona la, majuna en mije li sona e ni:
+sina ku ala ku?
+o tawa lipu ni.
+sina wile toki tawa mije anu meli?
+mi tawa sewi la, mi o lon open.
+sina kute e kalama musi ni.
+ona li awen e lipu kasi sin lon anpa suno.
+taso la, musi ante li awen pona.
+o weka e wawa tan sinpin sina.
+jan Sonja kin li pilin e ni, li wile e esun ante.
+sina toki e ona.
+kule seme li kule pi nanpa wan sina?
+mi tawa tomo toki. ona li pona tawa mi.
+mi tawa ma.
+kulupu pi nasin lawa li pana e lipu.
+ilo tenpo sina li toki ala e pona la ken la ona li pakala.
+tenpo ante la sina mu pi mute ala sama ni.
+ijo li lon lukin mi.
+tenpo suno mi li ike.
+lawa pi kulupu ni li seme?
+ilo nanpa lili li kama tan sewi li tawa anpa tawa lawa soweli.
+o tawa, o pana e wile mi.
+pu li ijo sona nanpa wan pi toki pona.
+jan kala li ken ala lukin e ona.
+mi pini e sike lukin mi la mi kute e ni.
+mi olin e soweli pi sijelo pona.
+mi tawa weka tan tomo sona.
+sina pona!
+o toki tawa kala.
+sina wile kama jo e len sin la o tawa esun.
+kulupu sina li kepeken kule seme?
+soweli li tawa wawa.
+soweli ni li jelo walo sama suno.
+taso la, jan li kute ala kute e toki pona?
+sina wile kama jo e soweli suli la o kama jo e waso.
+kin la ni li ike.
+tenpo ni la o pona e lipu nanpa!
+mi wile sona e nasin tawa.
+lon tenpo lili la, jan Kuntuli li jo pona e ona.
+soweli li kama weka e apeja tan ona.
+mi mute li lukin lili e ona.
+o kama sona lon tenpo ale.
+tenpo li kama ante la ale li kama pona.
+mi ale o moku e kala.
+jan Telen li lukin e mi.
+jan Ankewi li weka wawa sin e ona.
+len ma pi ma Nepalu li leko ala li kiki sama nena.
+suno li suno la ale li pona.
+mi wile ala e ike tawa sina, jan Kuntuli o.
+monsuta ni li pona.
+o moku!
+o telo e luka sina.
+jan li wile tawa wawa ala la, ona li kama weka tan ilo tawa.
+jan Piju li pini e lipu pi wile sona.
+sina pilin e nena la nena li suno li kalama.
+tenpo ni la sina wile tawa seme?
+nasin sitelen mute pi toki pona li lon.
+ken la, jan kule mute li wile ala kepeken nimi sin ni.
+a, ike. mi pakala.
+jan ale li kama pilin utala.
+ilo o pana e sona musi.
+mi ken ala!
+ni li seme?
+ona li pini lon tenpo suno sama.
+mi ken ala moku sin.
+kili ni li suwi ala, taso ona li pona mute.
+sina kule e mi la, sina kepeken kule kama.
+mama o, mi ken toki e ni taso tawa sina: pona suli tawa sina.
+soweli li weka tan luka pi jan Kuntuli.
+ni li suli ala tawa mi.
+toki sina li jaki li ike.
+tan ni la, ona li pali e sitelen sin.
+jan li ken weka e ona li ken pali e waso kule kepeken ona.
+a, ken la ni li tan pi ike lon!
+mi ken ala awen lon tenpo suli.
+jan Ankewi li pana e telo kasi seli tawa jan ale.
+sona tawa la soweli ale li sike a
+mi pali e ale tawa sina.
+poki kala mi li jo e kasi e tomo lili e kala mute.
+mi wile ala kokosila, taso mi sona ala e nasin toki pi toki pona.
+wa! seme?
+ken la nimi ona li jaki anu musi.
+jan ale li lukin e ni: olin li kama tawa mi tu.
+mi wile pona e ilo mi.
+ilo ni li lete pilin.
+mun li sike suli.
+ken.
+sina telo e tomo tawa pi mije sina.
+luka mi li awen lon luka sina.
+mi ken ala tawa tan ni: len noka mi li pakala.
+mi sona ala e ni: nasin seme li pona nanpa wan.
+ona li suli tawa sina tan seme?
+mi weka e telo pi sike lukin sina.
+tenpo ni la, sina jan lawa!
+jan li ken pana e lipu kasi ni tawa telo seli.
+ma ale li pona.
+jan pi alasa kala, o kute e toki mi
+o weka e pilin ike sina.
+jan pona ali li wawa e kon.
+loje ni li sama seli.
+ona li wile ala olin e mi.
+tenpo ale la jan sin li kama.
+kasi ali li kapesi li laso ala a!
+jan Tu li alasa weka e ko nasa kepeken luka kin.
+soweli li mu tawa mun.
+jan lili ona li kama wile ala musi lon poka ona.
+sina olin e nasin a.
+nimi pi lipu ni li lipu pi jan pona.
+ilo nanpa li sona e nasin pi moku pona kin.
+tenpo ali la o kama sona!
+lon lupa pi tomo suli la, kalama li kama!
+o tawa tomo sina.
+sina weka lon tenpo ali.
+n... mi sona ala.
+telo suwi ni li jo e suwi lili sama lon ale pi telo ona.
+jan olin mi li tonsi.
+o lape. sina lape ala la sina ken ala pali pona.
+sina kama jo la sina lanpan.
+ona li toki e moli sewi pi jan Tewen.
+soweli suli mute li lon ma kasi ni.
+sina sama ni.
+jan majuna en jan lili li musi Saku.
+mi sona, ilo nanpa o.
+mi lukin e soweli luka.
+o kepeken ala nimi ni.
+tenpo pimeja la ona li kama lon suno.
+mi wile e tomo sin, e tomo wawa, e tomo pi jan lawa!
+ni ali li tan mi.
+misikeke nasa sin li kama kepeken tenpo suno esun tu pi tenpo jan.
+tenpo ni la kon sewi li pona ala pona?
+o kepeken ala telo pi sike lukin.
+taso la, jan mute li kepeken nimi pi pu ala.
+sinpin li open ala.
+mi kalama musi tawa sina taso.
+pilin sina la kon sewi li pona ala pona lon tenpo suno kama?
+jan li ken alasa e soweli suli kepeken ilo, kepeken sona.
+tenpo ala la sina wan taso.
+poki kiwen mi li tawa anpa li kama pakala.
+ma tomo Lantan li suli.
+ona li jan pi wile unpa ala.
+mi pana e soweli lili tawa sina.
+tan toki kala la, jan kala li tawa tomo ona.
+jan Luta o!
+mi wile pilin pona mute taso.
+musi li lon tenpo mun wan taso.
+ilo o, tenpo ni li tenpo seme?
+soweli li tawa lon poka.
+suno ali li kama wawa tawa ni.
+lawa li pona tawa jan ale.
+mi pilin e ni: ona li toki e lon.
+sina wile ala wile e moku pi soweli ala?
+mi wile moku. taso mi jo ala e moku.
+mi ante e nimi mi pi toki pona lon tenpo tu.
+o toki mute ala.
+waso mije li kule wawa tan ni: kule li pona tawa waso meli.
+telo en telo ilo li ken ala kama wan.
+mi pini e pilin utala sina la mi tu li ken toki tan ni.
+linja ni li kama pakala la ale li tawa anpa.
+jan Tu li pake lili, li alasa e kute pi jan Kuntuli.
+ni la, jan Kuntuli li pana e len lape tawa jan ale.
+kama la, mi tawa tomo pi telo wawa.
+sina wile e ni: mi kama sin tawa sina la mi kama.
+mi kama pona!
+sina wile moku la, sina o alasa e kasi moku.
+mi sitelen e sike suli. sina sitelen e poki lili.
+ni li suli tawa ma Elopa.
+suno li lon poka wan ona la, poka jasima li pimeja.
+pini la, jan Kuntuli li kama sin tawa anpa.
+kala li pona tawa soweli mi.
+mi jan pi toki pona.
+mi pilin sama sina ala, taso mi ken sona e pilin sina.
+jan Kila li kepeken ala e tenpo namako ona tawa pona lawa.
+a, mi jan lawa.
+mi sona e ona.
+ijo pimeja li kama tan sewi, li weka e luka pi jan Ankewi.
+mi luka e soweli puwa la mi pilin pona.
+jan mute la jan luka tu wan li kepeken nasin wan.
+ijo ale li kama lete li kama lon ale.
+o lukin e lipu tenpo.
+ilo nanpa li oko e ona.
+kule mute li lon sitelen ni li pona lukin.
+mi toki e ni tawa sina lon tenpo pini.
+luka sina li pakala e ona.
+tenpo sike li tenpo suli.
+suli la, mi pilin kin e ni.
+ona li toki e jan suli, e ante ona pi jan ante
+mi kama. mi lukin. mi lanpan.
+pona la, nasin li kama mi.
+mi jan utala pona.
+mi pilin ike tan weka pi jan Telen.
+jan li pali tan wile ala moli taso la ni li pona ala.
+waso li moku e pipi e pan.
+akesi lili li lon insa sike.
+tenpo ni la mi o ante e ona lon ma ale a.
+musi utala mute li lon tenpo pini.
+toki Inli li toki open mi.
+noka sina li wawa, la sina ken tawa wawa.
+ilo nanpa li ilo pi nasin nanpa pi toki pona.
+musi o open!
+awen la, jan pi olin ante li pilin ike tawa nasin sewi ni.
+kin la mi wile e pona tawa ona lon tenpo kama.
+ona li wile e tomo wawa, e tomo pi jan lawa.
+nimi "kokosila" li tan toki Epelanto.
+mi jo e kili luka!
+lon pini tawa la, jan ale li pilin pona, li pilin lape.
+jan Kuntuli en jan Tu li pilin monsuta.
+mi kin a, jan Telen o!
+ona li monsuta mute.
+jan lawa mi li ike tawa mi.
+o moku ala e soko laso ni.
+tenpo pimeja la, mi en sina li tawa esun.
+mije taso ala li jo e luka wawa.
+mi pilin e ni: jan pi toki pona li olin pali e nasin sitelen.
+a. mi sona ala a.
+ken la ona li tan ni: nena mama jan li awen e ko wawa.
+mi sona ala. ken la ilo nanpa li ken sona.
+ona li alasa weka e ona tan lupa.
+tenpo ale la ni li kama sama.
+o sona e ni: nasin mani li nasin ike.
+sina kute e toki mi.
+nimi namako li awen lon.
+oko pi akesi kule li nasa mute.
+ni la jan Ankewi li sona e ni, li ike tawa sina.
+nasin lupa pi pimeja mute li lon.
+pu li pana e nasin pi jan Sonja taso, e nasin nanpa wan ala.
+meli sina li pilin pona ala pona?
+mi kala ala.
+sina kepeken ala kepeken nimi "epiku"?
+ona li olin e jan poka pali, e jan Julija.
+suno li kama anpa lon poka pimeja.
+ona li pali e musi pi wawa mute.
+mani mute taso li pona lon musi ni.
+mi alasa e akesi.
+ona li ken lukin taso.
+jan olin mi o, sina ken ala.
+nasin nanpa pi suli lon li toki e nimi anpa taso, e nanpa lili.
+kiwen li kama anpa lon lawa pi mije ni.
+ona li kule e tomo tawa.
+moku mi li jo e pan e kasi e kala.
+ilo o, ma esun li lon seme?
+mi kama lukin e pakala lili mute lon ni.
+toki pona li pona ala pona tawa sina?
+soweli li tawa mute.
+tu ale li sama ale ale lon nasin nanpa pu.
+jan ala li kepeken nimi mama ona.
+jan ale li kute e toki mi.
+jan Tu o, tenpo ni la mi mute o tawa tomo sin.
+lape sina li pona ala pona?
+sina wile tawa la o lukin pona e nasin ale.
+jan suli li tawa tomo ona li lape.
+a! pakala!
+jan Nimu li esun e kili loje jelo.
+pipi lili li moku e telo loje mi.
+kala linja li lon ale pi ilo tawa kon mi.
+wile mi la sina lon tomo mi.
+mi pilin monsuta tan ken ike.
+sina olin ala e mi.
+jan Tawimi li wile e sona tan jan mute.
+mun lili li suno.
+mi tawa nena noka tan toki selo.
+soweli ni li jo e lukin lon poka lawa.
+pakala ni li tan sina ala!
+o kepeken nimi sin ala a!
+mi lukin e ni.
+mi wile sona e ni tan jan: olin li pilin seme?
+taso, sina ken moli lon utala, anu seme?
+jan Tu li luka li tawa e pan, li musi.
+sina luka e tomo tawa mi la mi pakala e sina.
+musi li ken suli e jan mute.
+o lukin e len loje ni.
+ona li linja e palisa tu.
+mi pilin monsuta tan ni.
+nasin pasila li pona tawa pilin.
+o pakala e ni.
+sina wile moku e pan anu seme?
+mi tu o moku e waso lon tomo moku.
+nasin ni li ken toki e nanpa suli kepeken nimi mute ala.
+o sitelen e ijo.
+kulupu li jo e jan mute.
+ona li pali e lipu ni tawa olin ona pi toki pona.
+sina ale o kama pona.
+o tawa sike e sina lon poka ante.
+tenpo ni la, sina pona.
+utala wawa o kama tawa jan.
+kulupu ni li anu e ijo lon monsi pi lupa pini.
+taso, mi tawa sin la, mi ken pakala!
+taso jan Eko anu ilo Eko lon tenpo ni li kama lon tenpo pini.
+mi pilin e ni: nasin sitelen ni li nasin ilo li pona lukin.
+mi wile moku e moku sewi.
+mi wile ala e ni!
+ken la, ona li pilin pona tawa olin tan jan ante.
+ma li sike.
+ona li kute ala e jan Kuntuli, li awen lukin e jan Ankewi.
+kasi li pona tawa mi.
+moku ni li ike tawa insa mi.
+tenpo ni la, sina lon tomo.
+toki ma li pona.
+jan Susan anu jan Lisa li moku e suwi?
+kalama musi li pake.
+sina seme e ona la ona li kama sama ni?
+jan Kuntuli li luka wawa e luka pi jan Tu.
+mi tawa.
+o kama ken kepeken e mun ilo lukin
+mi pilin ike lili tan ni.
+olin sina li lon tawa mi kin anu seme?
+mi lukin e ni: mun li kama loje.
+ma esun li lon seme?
+mi olin e meli.
+nasin seme la sina kepeken ilo toki ni?
+jan li olin ala e mi.
+soweli lili li sewi.
+mi kama jo e lipu ilo pi sona sijelo.
+o tawa wawa. o weka ala.
+o kama sona toki ilo
+lon li ken lon pona.
+jan Timi li wile ala lon jan pi kulupu ni.
+mi sitelen e lipu la mi sitelen e ni: mi pilin pona.
+sina tawa lon poka pi jan seme?
+mi kute e te "sina jaki a" to li toki e ni tawa lawa.
+ma Sile li lon poka pi ma Antasika
+tenpo suno ale la mi lukin tawa ilo tenpo.
+mi wile sitelen e ijo, taso lipu mi li awen walo.
+akesi pi lawa jelo li unpa lukin tawa akesi meli.
+jan Ken o, mi olin e sina.
+tenpo la mi lukin ala e pali mi li pakala tan ni.
+tenpo pimeja pini la mi lape lili taso.
+ni li pona tawa sina kin la o kepeken ona.
+sina moku e telo nasa la sina kama nasa.
+sina lon!
+soweli li mu mute, li tawa sike lon jan.
+ken la tenpo kama la mi alasa sin.
+unpa li ike mute tawa mi.
+ona li jo e nimi sin mute anu nimi lili.
+tomo ni li mi!
+ken la mi o lipu e ijo suli pi wile toki mi.
+sina sona ala sona e poka pi tu tu?
+ona tu li lon tomo lili.
+kulupu pi mute seme li lon tomo ni?
+mi olin e tonsi.
+ni li kili seme? mi sona ala e kili ni.
+mi olin e sina!
+seme li lili mute lon selo kule pi akesi ni?
+ijo ni li seme?
+sina wile lon sama seli la sina pakala e mute.
+akesi ni li lon ma Oselija taso.
+ken li pana e nimi "Kita" lon tenpo tu.
+sina pilin sama la, sina ken kepeken nasin ni.
+mi mute li tawa lon nasin.
+olin mi o pilin ike ala.
+sina tawa seme?
+ona tu li tawa insa tomo wawa.
+lon ni la sina ken pana e sitelen sina.
+sina wile jan lawa wawa tan seme?
+tan seme?
+soweli li awen nena e jan Kuntuli.
+tenpo mute la, jan li wile sona e ni taso.
+ona li tawa wawa tawa insa pi ma pi kasi ike mute.
+taso jan ante mute li pilin pona kepeken ala olin.
+kijetesantakalu li lon li nasa
+ona li powe!
+o pake!
+uta suwi sina li suwi pi mute ale.
+ilo o, mi jo e misa la mi o seme?
+telo linja li tawa anpa tan nena
+supa monsi pi tomo tawa li jaki.
+olin li olin.
+poki mani mi li weka.
+mun sike li lon sewi la jan ni li kama soweli ike.
+o toki e ni tawa mi: pona nasa li seme?
+tenpo ale la ona li awen lon ilo toki.
+jan li utala.
+ni li musi ala tawa mi.
+kasi kule ni li pona lukin.
+akesi ni li ken ante e kule selo li len e ona sama.
+mi lukin e mun la mi ken ala lape.
+len noka ni li pona lukin a.
+kijetesantakalu sewi li lukin e sina, li toki e ni: pali sina li pona.
+mije li kalama lon sinpin pi lupa tomo mi.
+ona li lukin sama pipi kepeken lukin mute ona.
+pona tawa sina!
+mi sona ala e tomo pi jan ni.
+jan pi wile olin ala en jan pi wile unpa ala li jan kule.
+jan li ken mije li ken meli.
+sina wile tawa tomo pi jan Sa la o tawa lon nasin ni.
+ona tu li lukin e jan tawa li toki e ni.
+o pilin e toki mi: mi tawa poka sina!
+sina pana e moku ale mi tawa soweli ona.
+kalama lili li kama tan lupa tomo, taso jan li kute ala e ona.
+mi sona e ni: mi ale li lon insa pi ilo sama.
+mi wile pona tawa sina, tawa jan melome ale.
+mi kama jo e ni lon esun.
+mi luka e ilo moli.
+lon tenpo pimeja ale la, mi ken ala lape!
+taso ona o toki olin tawa meli anu mije pi suli ona.
+sina anpa e palisa ni la ilo li open e pali.
+pilin mi la, soweli li moku e sina la, ona li pilin jaki.
+pini ma la, mi en sina taso li lon.
+mi jan lili la, mi moku mute e ona.
+lupa wan li pali mute, li pakala lon tenpo lili.
+o toki ala e ni tawa mi.
+lon sinpin lupa pi tomo suli la, jan lawa meli li lon!
+a! mi pakala!
+sona lon ni li toki e pilin ike.
+ilo unpa kasi jelo ni li lukin e suno lon tenpo ale.
+soweli o, seme li lon?
+sina wile utala la o tawa nasin jan.
+ona li toki e nasin ijo.
+jan ike li lon poka mi.
+jan Tu li oko e jan Kuntuli.
+ni la, jan li sona e nasin moku.
+"jan Sonja" la, "jan" li nimi lawa.
+sona ni li weka tan lawa mi.
+jan Kuntuli li alasa luka e soweli.
+o pilin pona poka mi.
+tan sina la lipu ni pi pona meso taso li kama pona mute a!
+tomo ni la jan li weka e len li telo e sijelo ona.
+mi jan sona akesi ala. mi sitelen musi taso.
+o lukin! ijo nasa li lon monsi sina.
+o pini e lupa tomo.
+sina pana e ijo ni tawa mi la ni li pona tawa mi.
+sina ala li jan lawa mi.
+a!
+o taso ala!
+o awen. mi wile lape lili.
+taso la, jan kule li jo e jan ante kin.
+ni li wile sona pona.
+meli ni li wile ala kute e mi.
+nasin ni li pona li nasa ala.
+o awen e mani sina.
+mije ni li unpa lukin tawa mi.
+mi pilin e ni: ni li weka la ni li weka.
+nimi sina li seme?
+telo nasa li ike tawa jan.
+o utala ala e toki mi.
+kon mi li tawa pi ma ike seli insa.
+mi mije sina la ni li pona tawa mi.
+ken li weka tan seme?
+a, mi sona!
+o toki e ni: mi kin olin e sina.
+o pu.
+waso pi tenpo pimeja li sona alasa e soweli lili.
+sina kute e kalama pi tomo tawa.
+taso jan ante kin li ken ante e nimi.
+wawa la, jan Tu li weka e pan tawa anpa.
+seme li kama lon?
+ma tomo lawa pi ma Panla li ma tomo Taka.
+palisa pi luka ante li nanpa e luka.
+nasin ni la akesi li ken ante e kule pi selo ona.
+sina sama suno tawa mi.
+jan lawa pi ma ni li jo e meli unpa e mije unpa kin.
+sina ken ala weka tan luka mi.
+ale li ken tawa mi.
+poka la, sina sona ala sona?
+wan en tu li sama nasin pi toki pona.
+ona li sina!
+nimi soweli li pona tawa mi.
+sitelen wan li sama nimi wan pi toki pona.
+pilin mi la, soweli li wile sona e nasin tawa.
+jan kute li wan e ona, li sona e nanpa.
+ona li pana e jo ona lon poki.
+mi pana e nanpa tawa toki sama.
+tan sewi la, kili luka li kama lon.
+tenpo ni la sewi li pana e telo
+mama mi li olin e mi.
+mi pana e ona tawa ilo ni.
+tenpo ilo ni li pona ala.
+tenpo ni la mi jo ala e lipu ku lon mi.
+tenpo li pini.
+kon pi jan ali li pona.
+jan lili li toki e ni: "mi kute".
+ike ni o weka.
+o kama tawa ma tomo mi.
+o weka e jan lili tan ni. ona o kute ala e ni.
+jan Tu en jan Kuntuli li tawa ala.
+mi moku ala e soweli.
+ilo tenpo sina li sama tawa mi.
+nimi pi pu ala li nasa tawa jan mute pi toki pona.
+mi olin e sina, taso mi wile kama nanpa wan.
+suno pona!
+akesi mi li moku e soweli lili.
+telo pi kasi seli li pona tawa jan pi ma Inli.
+sike li tawa e sike ante. sike ante ni li tawa e sike sin.
+nasin ni li pona ala, taso ona li epiku a.
+jan lili en jan suli li toki.
+kili ni li ijo mi.
+mi jo ala e meli e mani.
+jan Tu en jan Kuntuli li pana e leko mute tawa jan ale.
+akesi seli li pana e seli loje e seli jelo tan uta.
+kalama musi ni li kepeken nimi ali lon toki pona!
+ilo li lon poki ni.
+jan Tu li oko e soweli.
+kepeken lukin mute la, ona tu li tawa lon lupa tomo monsi.
+mi olin e mun.
+jan Ewinton li pini alasa e pona tawa.
+sina ken la o kama lon tomo mi.
+o unpa e jan San, tan esun pi telo wawa
+mi o pali ala tan seme, jan Seni o?
+luka sina li kama tawa mi la ni li pona.
+telo li tawa ala la ona li jasima pona e suno.
+sina lukin ala lukin e suno?
+kokosila li ike tawa jan mute pi toki Epelanto.
+soweli li pilin monsuta la, ona li mu wawa.
+jan Tu en jan Kuntuli li kalama kon ike lon tenpo sama.
+pan en kasi li lon.
+nimi mute li toki e kule kon.
+pilin mi la mi ken.
+ma moli li open li open e jan.
+ilo o, nanpa toki pi jan Senleka li San Tu Neja, Ka Lu Po.
+mi mute li moli ala.
+toki nanpa li ike lili tawa kulupu ni.
+sina wile ala utala la o tawa weka.
+soweli suli li awen.
+o toki e ni tawa mi.
+sina wan taso tan ni: jan ala li lukin tawa sina.
+ilo nanpa o!
+mun lili mute li lon sewi, taso mun suli li lon ala.
+linja lawa mi li walo li suli.
+o pali!
+wawa li kama.
+mi sona ala e ni: ni li lon ala lon.
+ale li kama nasa tan kon tawa ni.
+mi sona e ni taso.
+mi kama sona e pakala mi.
+sina kepeken luka tawa nena lili ni la lupa li kama open.
+toki ma li pona ala pona tawa sina?
+ona li awen lon tomo ni la ona li ken ala sona.
+ante kule li toki e pilin akesi e wile akesi.
+mi awen sona ala e pona pi nasin ni.
+jan ale li utala.
+jan ante li jaki.
+tan ni la, mi o lon.
+nasin ni li lon la, mama o weka ala.
+n... waleja li seme? mi sona ala e nimi ni.
+tenpo ni la mi tawa tomo mi
+mi lon poka sina la mi pilin pona mute.
+jan Kuntuli li lape lon supa lape.
+jan Susan li pona.
+mi ken ala pilin e ni: sina wile ala lukin sin e mi.
+akesi li soweli ala soweli?
+toki ale sina li musi taso.
+sina ken pali e ni kepeken ilo ni.
+o kepeken nimi ku suli taso lon lipu ni.
+mi olin e sina, jan Kuntuli o.
+sitelen Lasina li ken lon ilo toki.
+ni la jan tawa li weka e len.
+lon tenpo pimeja ale la, meli lawa li lape lon supa lape ni.
+mi ken ala kalama musi tan ni: ilo kalama mi li pakala.
+lipu ni li tan jan Tokin, sina sona ala sona e ona?
+utala uta la mi sewi tawa jan mute.
+kon pi tomo tawa li jaki.
+mi alasa kama jo e jan pona sin.
+pipi ni li lili, taso ona li wawa.
+ken la mun Teja li pakala tawa ma lon tenpo pini.
+supa moku li awen lon poka lili pi tomo ni.
+taso la, nimi mute pi toki pona li pu ala.
+mi kepeken ala pi nasin melome, taso mi wile pona tawa jan ni.
+ale li pali e lipu pi jan kama.
+mute li kulupu tu tu pi ijo luka.
+mi wile pu lon tomo telo.
+tenpo suno la kon li tawa ma tan telo suli.
+tenpo ale la mi lukin e nasin tawa sina.
+nanpa pini la, o pana e moku lon supa.
+ona li lon ala lon tomo?
+nasin ona li sama nasin pi lipu pi tenpo suno wan.
+lipu Nasinesipo li lipu pi tenpo kama ken tan jan So Owe.
+len sina li sama ala pona lukin pi len mi.
+taso, kala ni li ken toki, li toki e lawa ona.
+lon tenpo pimeja kama la, telo ike mute li kama!
+sina lukin e seme?
+monsi pi akesi ni li jo e sitelen walo pi pona lukin.
+ma ni li ma pi musi mute.
+mama li musi e pilin ike li lete e seli pi pilin pakala.
+mi wile kalama musi kepeken ilo sin mi.
+tu tu ale mute li ale ale ale ale mute.
+mi jo e lape. mi lape e mun e suno e pona e ike.
+jan ali li wile ala wile e olin?
+mi lon tan seme?
+sina wile weka e ni.
+taso nimi "ale" li mute e nanpa monsi ona.
+sona li lon lawa li pona tawa insa pilin.
+ni la?
+jan Tu li pana e luka tu tawa luka pi jan Kuntuli.
+"o pona e ma ale" li lon lipu pali sina anu seme?
+jan ante li ken lape.
+jan ala li lon ni, taso tenpo suno kama la jan mute li kama.
+toki pi ilo nanpa li lon a.
+kin la, nanpa ale pi wan ala pi tu ala li mute.
+kasi en pan en kili li sama.
+ilo nanpa li sona!
+o kese, o kamalawala.
+sina moku mute la sina kama sona lili.
+soweli wawa li pakala e jan alasa.
+sina ken kama li ken pali e musi utala sina lon ma ni.
+mije ni li wile ala toki tawa mi.
+ni la mi la ken la tomo sin li ike ala.
+poki li kama pakala.
+a, ni li pona tawa mi kin a.
+mi pali e lipu ni tan ni: toki pona li pona tawa mi.
+jan lawa pi tomo mi li wile ala e soweli tomo.
+o ken e tawa mi!
+ona li moli e mi.
+nasin epiku li nasin seme?
+tenpo kama la ona li ken sona e toki pona kin.
+jan li toki e olin sama ma pi lon ala.
+akesi lili pi ante kule li kama tan seme?
+mi open ala e seli.
+o pilin pona.
+mi wile toki e toki sama ante lon tenpo ante Ali.
+soweli li wile mute e moku.
+jan li ken ala pona e jan ante.
+ona li kule e sinpin ona la, ona li kama.
+jan utala li seli ala seli e tomo?
+lipu ni la, nimi pu ale li lon.
+ken la mi pana ike e ni.
+o pana pona e sona tawa mi
+jan lili la, kiwen lili li musi mute.
+tenpo kama li pona la ni li open e nasin tawa ijo mute pona.
+ilo wawa ni li ken pakala e kiwen.
+mi o pali e seme?
+ilo o, tenpo suno lon la telo li kama ala kama anpa?
+sina olin e mi kepeken uta la mi lukin taso.
+ona li sama pilin monsuta tawa mi.
+jan pi pona sijelo li wile ala e ni.
+kala lili li moku e pipi ike tan uta pi kala suli.
+o weka e telo nasa.
+ilo toki sina li kalama sin la mi pakala e ilo toki sina.
+suno li kama open lon poka walo.
+sina sama ona.
+sina jo ala jo e ken seme?
+mi la tenpo suli luka tu wan taso.
+ona li lon e poki!
+pali ni li pini lon tenpo.
+mi o pu. sina o ku. mi tu li wawa.
+ona li ante e toki insa kepeken nasin ante kin.
+nimi pi jan pona li sama pilin pona tawa jan ante.
+olin li anpa e ike.
+akesi li wile utala e akesi ante, la selo li kama walo.
+mi kama tan lape.
+o toki tawa ona, o wile e tomo pona!
+nimi ni li kama lon tenpo pi pini mute.
+mi kama jo e sina la, olin mi li pilin e ni:
+sina toki e ni: sina weka e ike mi.
+lon kama pimeja tenpo la ona mute li awen musi e musi Majon.
+ilo nanpa li awen lon luka pi jan Tu.
+mi o jo e tenpo, anu seme.
+soweli mi li kama moli.
+a, lon!
+taso ona li musi tawa mi!
+mi jo e olin sina.
+jan Kuntuli li alasa luka e jan Tu.
+ona li jo e luka wan taso tan ni: ilo ona li kama pakala.
+mi lukin ala e sina.
+jan pi mute ala li kama.
+mi li pona e seme?
+nimi "la" li nimi pi pona nanpa wan tawa mi.
+o lape ala lon tomo sona!
+o pakala e ilo jasima a!
+o wile e ni!
+sewi mi tenpo pimeja li pona li jo e mun mute.
+powe tu suli ona li ni:
+tenpo suli li tu tu la, ona li wan.
+ona li jo e wile ale pi jan ale.
+o tawa tomo.
+jan Kuntuli li pali sama.
+taso, jan sin li sona ala e ni.
+olin sina li jo pi jan ante.
+soweli li open tawa.
+mi o pini ala.
+mi tawa anpa.
+taso la, ona li wile ala e unpa.
+jan pona mi li toki e ni: o weka e wile sina.
+jan suli la, mi wile jan lili.
+ona li wawa mute.
+kin la ona li ken jaki e tomo ale sina.
+ale li pona.taso ale li pona ala!
+pilin mi la, sijelo mi li pona.
+taso, sona mi la jan ike li lon ala.
+sitelen ni li toki e sona tawa mi.
+sina pana e pilin ike tawa jan lukin tan seme?
+ona li utala toki.
+kili suwi li pona tawa mi.
+tenpo pimeja la sina lon sitelen lape mi.
+mi wile lape lon tenpo kama lili.
+ona tu li kepeken ijo sama nasin melome lon lipu ni tan melome ona.
+taso ona li musi.
+ken la sina ike tawa ona.
+lukin ona li toki e pona tawa mi.
+telo li ken kama kiwen tan lete anu wawa pi tawa insa.
+ilo o, o pini e lape mi lon tenpo kama poka a.
+jan Nasume li jan pona tawa monsuta mute.
+ilo li ken pana lukin e sijelo kepeken ona.
+ken la, nimi pu li suli.
+sewi pi lipu ni li lon anpa.
+ijo wan li lon la ijo ante kin li kama lon.
+tenpo kama lili la mi open sin e pali mi.
+ale ni li jaki.
+ona li lon.
+tenpo pi mute seme la sina sike e suno?
+jan Tu li lukin e pimeja lon lupa tomo.
+mi ken moli e ona!
+mi la nasin ni li nasa lili.
+mi ken kute e kala Masina tan insa pi ma Masina.
+ona li sama jan Santa tawa lukin.
+sina pilin sama anu seme?
+mi pana e soko lili pan tawa ko pan telo.
+jan Ken o, pipi li lon len sina.
+o pana e sona pi lon sina tawa mi ale.
+taso jan Weko li lon kin.
+jan Kuntuli li pana e moku tawa supa.
+ken la ona li lape.
+mi toki uta tawa sina kepeken linluwi.
+lawa pi kasi kule li kama.
+sina wile ala wile jan pona mi?
+ona li pali lon kulupu lawa.
+mi lukin kepeken oko mi.
+jan Lupi li wile kama jan lawa pi jan lanpan telo ale.
+jaki li kama la, o pana tawa kalama.
+mi kute e kalama musi lon poki ni.
+sina wile e pona tawa jan ale la o moku ala e soweli.
+akesi wawa li lon lupa suli ni.
+o tawa weka. mi wile lon wan taso.
+sina wile moku la o telo e luka sina.
+mi wile pana e telo jelo.
+sijelo li ante la, ona li utala kepeken nasin ni.
+ijo ali lon musi ni li kama tan kama pi lawa ala.
+mun li tawa lon sike ma, taso ma kin li tawa lon sike suno.
+jan Tepani o, sina ike tawa mi.
+tenpo suno wan la, jan kala li awen.
+taso tenpo kama la, nasin pona li kama.
+ni li pona meso taso.
+tan ni la, mi mute li jo e toki sama pi toki pona!
+mi alasa e nimi namako ni.
+sina ken ala moku e suwi anu seme?
+o pakala e ona ale!
+mi wile lukin e sitelen musi pi jan Pikaso.
+ona li suwi mute!
+jan Tu li kuntu.
+ona li pana e tenpo suli luka tu wan namako lon tenpo suno.
+mi awen olin e sina.
+o weka e monsuta tan pilin sina.
+ilo o, utala musi sike la seme li pini sewi?
+ni li lon ala lon?
+suno li suli mute. mun li suli lili.
+soweli ike li wile moku e meli lili pi len loje.
+mi toki e pilin pu taso.
+ko pan telo li kama suli li kama puwa.
+mi pana e nanpa pi ilo toki mi.
+jan ale li ken pakala. o pilin ike ala.
+mi ken toki pona.
+mi meli.
+ona li ilo nanpa!
+mi lukin e mun walo lon sewi pimeja.
+ilo li kepeken nanpa lili tu.
+ni li pali mi pi tenpo suno ni, kepeken tenpo lon:
+tenpo suno ni la lipu pu en lipu ku li kama lon tomo mi.
+pan ni li ike moku. o pana e namako tawa mi.
+mi pana e tenpo tawa sina.
+mi wile sona e pona sina.
+kalama pi wile moku li kama tan sijelo pi jan Kuntuli.
+toki musi la, jan Kuntuli li jan pona.
+jan Kuntuli o! sina pona anu seme?
+sina taso li sona e mi.
+ona li tawa tomo lape, li weka e len lape tan supa lape.
+tenpo kama la sina ken tawa kulupu pona pi toki pona.
+jan kala li toki sin:
+ona tu li tawa insa, li lukin.
+mi wile ala e nasin nasa.
+ni li nimi mute a!
+jan Kuntuli li lukin ala e pan, li awen lukin tawa jan Tu.
+ona li awen tawa la, ona li kama
+jan poka sina li pona ala pona tawa sina?
+ni la, jan Maku li open pali namako.
+ni li nasa.
+moku la, kili li pilin ike tawa mi.
+ken la lukin mi li toki e pilin mi tawa sina.
+o awen lon linja pi ilo toki.
+jan kala li pana e kala suli tawa telo, li ken e tawa ona.
+uta mi li loje.
+mi wile sona e ni.
+ona li kama sona e ni: tenpo li ante tawa jan ale.
+kin la, nimi ilo ante li ken ken ala ante.
+mi sona e ni: sina olin ala e mi taso.
+nimi luka luka tu taso li lon ona.
+mi kepeken toki pona lon kulupu pi toki Losupan la mi kokosila ala kokosila?
+tenpo ni la, jan li ken mama ala e jan lili, li awen pona.
+ni li suwi ala suwi?
+jan li pali e misikeke la jan o lukin e pona anu ike ona.
+sina lawa e ike tawa mi.
+ona li nasa tan ni.
+tenpo pimeja pini la mi kama nasa.
+ijo li soko anu kasi anu seme?
+jan li moku e kili kipisi e sijelo soweli seli.
+ni li ken nasa tawa jan.
+o kama tawa kulupu pi toki pona lon lipu Pepu.
+nimi "tonsi" li pona mute tawa mi.
+tenpo ni la ona li moku ala lon tenpo suno.
+mi wile ala tawa musi.
+mi kepeken ilo lukin pimeja tan ni: suno li wawa mute.
+sina ante e pilin sina.
+tomo nena leko pi akesi linja sewi Kukukan li lon ma Mesiko.
+mi wile lukin e ma e suno.
+waso ni li weka tan tomo la waso ante li kama.
+sina toki ala la ale li kama pona.
+ni la o tawa wawa.
+a, ike!
+meli li moku e telo kapesi li lukin e lipu pi sona sin.
+ken la ona li tan kalama ona?
+nasin seme la kule selo li kama ante?
+kon pi jan moli li kama li toki e ni: sina ike.
+tenpo lon la jan Sekolopasa li tawa kepeken ilo pi sike tu.
+oko mi en oko sina li toki sama.
+monsuta Sujo li pali e ma lili pi kasi moku.
+tenpo ni la mi pana e ona tawa sina.
+oko pi mi mute li suno. mi pilin ala apeja.
+ilo o, soweli lili li moku mute tan seme?
+o mu ala.
+sina lukin ala lukin e lipu te "tu lukin lon" to?
+o awen. pilin ona li kama pini.
+ona ale li lon tawa.
+o ken e ni: mi lukin e ijo.
+len jelo li len e lupa tomo.
+mi pilin pona tan ni: jan lili sin li kama lon.
+kulupu ijo li ike tawa mi mute. ijo ala li lon.
+mi tu li awen li pona.
+o telo e noka sina. ona li jaki.
+mi tawa tomo esun li jo e len noka tan poki.
+wa! sitelen ni li suwi a!
+o awen e moku ni kepeken selo.
+sona ona li pona e ale.
+te "sitelen sitelen" to li nimi nasa. te "sitelen suwi" to li nimi pona.
+o tawa ma pi pali wawa.
+suwi o, mi olin e sina!
+mi wile e suli e suli.
+tenpo pini suli la, mun li jan sewi tawa jan.
+jan misikeke li weka e linja tan selo li kipisi li open e sijelo.
+mi lukin e waso lon sewi pi tomo ni.
+jan Kulija o.
+selo waso en selo soweli li puwa.
+supa pi tawa musi la, pilin li suli li pakala.
+a, taso, mi sona ala e ni: ni li pona anu seme?
+seme li lon monsi sina?
+jan pi pona sijelo o pona e akesi mi! noka monsi ona li pakala.
+taso, mi lukin e sinpin sina. mi ken ala weka e ni.
+a, ni li musi kin.
+ilo ni li wawa ala li ken ala tawa e ijo pi suli ni.
+sike noka sina li tawa.
+a, ijo li sin lon sina. sina ante e seme?
+o pu ala! o ku!
+sina kepeken nimi pi mute seme lon nasin sina pi toki pona?
+lupa pi ma kili li pini la, ona li tawa anpa lupa, li tawa insa ma!
+mi pana e mani Elo luka luka la mi ken kama jo e mute seme?
+toki Lise li tan ma Lise pi ma Netelan.
+sina pilin e tenpo suno pi tenpo namako.
+ni li pana e ken sin tawa kulupu pi toki pona.
+ona li suli ala tawa sina.
+pipi moli li pipi pona.
+nimi soweli sin li lon.
+tenpo namako.
+tenpo ala la mi toki e ni: mi olin e sina.
+taso, majuna lawa li toki ala.
+musi utala li pona tawa sona pi toki pona.
+nimi ona li “nasin nanpa ali ike” tan ni: nanpa li ike, a a!
+jan ale pi kulupu ni li jo e len laso.
+n.
+ala, pakala a, mi toki pi ale ni.
+ken la, ona li pilin pona tawa nasin unpa.
+kijetesantakalu o moku ala e soko!
+ale ni li pona.
+mi wile tawa supa lape
+pini pi kama sona la, jan Piwi li wile sona e ni.
+sina sona pi pona mute e ni.
+sina jan olin mi la sina ken ni.
+mi tawa poka sina.
+ona li nasin nanpa pi suli lon pi nanpa tu tu tu pini.
+kalama musi li pona tawa mi.
+jan ni li ken lawa e kulupu.
+ona li pona li pilin sewi.
+mama mi li sona ala e toki pona li wile ala kama sona
+jan mi ali li jo e moku ni.
+o lukin e lipu tawa sewi sina ni: ona li pali.
+pimeja li kule pona.
+nasin nanpa sin mute li sama ni, tan ni
+sina lukin e kule ni la o kalama.
+akesi li ken lukin e ijo tu lon tenpo sama!
+jan Tu en jan Kuntuli li weka pakala tan monsi ona, li tawa ma.
+soweli li pana e sinpin pi pilin jaki.
+tenpo mute la mi pakala sama ni.
+mi wile moku. sina la seme?
+ona li toki ala e lon.
+len nena mi li kama pakala.
+mi ken ala pilin e ni: sina wile ala kama tawa mi.
+mi pilin monsuta tawa pipi suli.
+tomo mi li tan kiwen walo.
+ona li kute e toki mi.
+mi ken ala kama sewi tan ni a.
+ilo o, mi wile e ni: kalama toki sina li kama mije.
+ko nasa li open kama tan sewi.
+soweli suwi suli.
+ni li tomo mi.
+ona li nasa, li jaki, li powe.
+lukin la pipi ni li sama palisa kasi.
+olin mi o, sina seli e pilin mi, sama, n, sama seli suli.
+mi o ante e ilo mi lon tenpo kama lili.
+jan ale li ken pali e ni.
+jan ni li lon: pipi suli li pona tawa ona.
+o pilin!
+tenpo sike ale la tenpo musi Lokaton li lon ma Tawi.
+jan mute li pali “sin” e nasin ni.
+tenpo mute luka tu tu la mi sike e suno.
+sina sona ala sona e tan?
+sina jan nasa.
+mi wile weka tan kalama ike ni.
+sina lawa e mi lon ma ni.
+mi pu e sina!
+lukin la, ona li alasa sona pona.
+mi toki e ale mi tawa sina.
+mi wile ala ni: mi wile kepeken anu.
+mi pana e sike kule mute lon luka mi.
+jan Tu en jan Kuntuli li lukin tawa jan olin ona, li kuntu.
+tan ni: mi wile awen e sina.
+o tawa pona!
+mi pilin e ni: ni li pona mute.
+o lukin ala tawa mije ante.
+o sitelen insa e ma pona pi pali ala.
+pipi li moku lili e mi.
+ona o kulupu.
+jan mute li kama.
+mi wile ala e len jelo ni, taso len loje ni li pona.
+soko ni li ken misikeke!
+mi tu pi pali ala li ken pali e seme tawa ni?
+ona li ali li mu.
+jan Sonja li tan ma Kanata.
+mi toki lon jan.
+oko mi li lukin ike.
+jan Kuntuli li lukin tawa jan Tu.
+lon a.
+sina wile e lon seme?
+mi pilin pona.
+sina wile e seme?
+mi jan pi nasin pu ala.
+ilo o, o pana e mani ali ali mute luka tawa jan Nuken.
+seme li moku e kili mi?
+lon. ona li sina, jan Kuntuli o.
+ona li awen kuntu tan toki musi pi jan ale.
+jan Sonja li pali e toki pona.
+lipu li ken kama pona tawa seli.
+sina kama pona!
+toki pona li toki sin kin, taso lawa li pana wawa ala e ona.
+mi lukin e sina la ni li pona tawa mi.
+sina en mi lon suno mun.
+soweli li kama tan luka pi jan Tu li tawa jan Kuntuli.
+jan Elisape li jan lawa pi ma Juke.
+tenpo pini la, nimi ni li lon nasin pu kin!
+ni la, jan mute li kepeken nimi “san” tan toki Sonko.
+kalama ni li nasa li kalama ike.
+lon, ona li lukin sama jan.
+pilin unpa li lon kon.
+toki sina la, tenpo pini la jan Ankewi li ike tawa jan melome.
+suno li tawa lon poka seli.
+mi insa e ko walo pi telo mi kepeken nena.
+tenpo ni la tomo tawa mi li jo ona.
+jan lili li pona tawa mi.
+ni li jan lili ona nanpa tu wan.
+mi toki e ni tawa jan San: ona li jan lili pona.
+jan kala li kama jo e ona.
+olin sina li jo e tomo pona.
+sina wile e ni tan seme?
+tenpo sike sin la jan pi kulupu mama li pana e mani tawa mi.
+tenpo sike sin pona tawa sina!
+sina nanpa wan pi olin mi.
+olin sina li jo e ni.
+tenpo kama lili la jan mute li lon ni.
+o pali e ilo sona kepeken nasin ni
+ni la, nasin nanpa pu li ike tan wile.
+taso ona li lukin e sitelen tawa pi ijo sin.
+mi wile ala pilin ike.
+jan Susan li nasa.
+sina pali e seme tawa jan Kuntuli?
+ilo o, o pana e lipu tawa mi.
+o tawa musi lon poka mi!
+tenpo ale la sina wile kama jo e mani mute.
+musi utala pi tenpo mun ni li "lipu pi jan kama".
+open la ale li seli mute sama ale li lili sama ala.
+jan olin mi li suwi mute.
+sike ma li pona mute.
+jan Kuntuli li lukin e oko pi jan Tu.
+tan ale ni la, jan olin li toki:
+toki insa mi li kule sina.
+ale li kulupu luka pi ijo mute.
+sina pona ala pona?
+mi moku ala e ni.
+mi toki jan.
+nasin seme la sina pali e ni.
+sina pilin ike la jan ante kin li pilin ike.
+ona li kalama musi olin.
+ilo o, o open e ilo Siko.
+jan Kuntuli li pana e luka tawa jan Tu.
+o sona e ni: jan ni li pana e ike e nasa tawa sina.
+tenpo seme la sitelen tawa musi ni li open?
+ni li monsuta tawa mi.
+kulupu mama ona a.
+toki sina la sina sona e ale!
+mi toki ala e ni tawa sina: o kama jo e ni.
+kulupu kamalawala li utala e kulupu owe.
+kulupu ni la jan seme li suli?
+ilo o, mi o jo ala jo e supa len pi awen telo?
+mi kipisi e lipu li kama jo e selo sitelen.
+mi sona ala e ni: mi pali e seme.
+mi sona, mi sona!
+pali sina li seme?
+ona li ijo musi kepeken leko lipu.
+tomo majuna mute li lon ma tomo Kijoto.
+mi wile e ni: ona li pona tawa sina.
+ilo lukin pi kulupu olin li lon.
+sina lukin ala sin e ale ni.
+lukin la, jan Tu li pilin pi sona ala.
+tan seme la sina wile ala e mi?
+ilo kipisi li kipisi e lipu.
+taso tenpo ala la mi lawa e ona.
+seme li lon poki?
+soweli suli li pali e nasin lon ma kasi.
+ijo sin ala.
+ona tu li pake, li oko lon linja, li kalama musi.
+mi pona ala pona tawa sina?
+sina tawa tomo kepeken tawa tomo.
+sina tawa e supa mute lon insa tomo sina.
+wan sijelo kasi li jo e sinpin li leko.
+sina tawa e sike pi ko lete lon sewi tawa lawa mi.
+lon, mi pali e pona sin tawa nasin sin pi jan sona Ewinton.
+o pilin ike ala!
+lape en lape ala la, mi lon meso.
+o lukin e pona taso.
+ona li ante e lawa la, kulupu lawa li wile alasa e ona.
+kin la, ona li pali e kulupu suli wawa tawa ni.
+o lukin e ni: sina pakala ala e sina sama.
+o awen ala e ona kepeken luka.
+taso ona li awen lon.
+tenpo suno kama la mi tu li pilin e sama.
+ni li kama sin anu seme?
+mi o tawa tomo toki pi kokosila taso.
+kiwen la, palisa luka ale li lon insa luka.
+tenpo suli la mi sona ala e ni.
+ona li pali e kulupu pi unpa pi tenpo suli lon ma Nepa.
+jan Tu li weka e kasi tan uta ona.
+jan li esun e ma kule li pana e mani tawa jan ante.
+telo li pona.
+insa li lon meso jan.
+ni li pona lukin anu seme?
+mi wile lukin e tomo mi. taso mi lon ma ante.
+jan li lawa e ilo ni kepeken palisa ni.
+ma tomo mi li lili li lon ma nena.
+sina tawa weka tan mi.
+sina wile pali e seme?
+mi awen ala sina lon tomo mi.
+a! toki, jan Tu o! sina pali e seme?
+mi ken ala tawa weka.
+sina ken nanpa lon luka sina kepeken nasin nanpa pi suli lon.
+telo li ken kama ike tawa seli.
+linja ale li pilin e lili moku ante.
+mi lukin e kasi suli la mi pilin pona.
+tenpo mute la pilin mi li kama ante, li ken meli li ken tonsi.
+jan mute o moli lon pini.
+anpa lawa li kama loje.
+tenpo ale la mi wan taso.
+o kama ala nasa.
+nasin nanpa pu li nasin nanpa pi kama wan.
+mi wile kute e sina.
+tenpo weka la mi tawa ma Malasija.
+sina kama lili pi mute sin la jan ala li ken lukin e sina.
+olin li wawa lili anu lon ala la, ona li wile weka.
+jan lili li wile e telo kili.
+kijetesantakalu meli en kijetesantakalu mije li jo e kijetesantakalu lili tu.
+mi lukin e kiwen kapesi taso.
+mi kepeken tomo tawa kulupu.
+o kute e ni.
+ken la, ona li weka e nanpa ni tan lawa ona.
+ken la lukin mi li ike tawa ona tan ko nasa.
+soweli Pikasu o, mi anu e sina!
+mi awen lon monsi sina.
+kon tawa li kalama musi e ni.
+mi toki e ni tawa sina: mi tawa.
+jan sewi o, ni li pona suli.
+mi pakala e len mi tan ni.
+sina toki e ni tawa mi: sina olin e mi taso.
+akesi mije en akesi meli li ken unpa.
+jan mute li pilin ike tan ni: jaki kon li lon
+sina lon poka lili mi.
+tan seme la sina kalama suli lon tenpo lape?
+tan soweli la, jan Tu li ken ala pana e nanpa.
+ali mi li pilin moli.
+lipu ni li toki: "toki pona li pona".
+sina pilin seme?
+o kama!
+mi o weka e sina.
+tenpo ni la mun li len e suno.
+ona o jo ala jo e olin?
+waso li tawa kepeken tenpo suli.
+jan olin o, ni li pona mute ale tawa mi.
+ni li suli ala suli tawa sina?
+ma li lon anpa mi.
+tenpo ni la mi lon.
+mi pilin mute e ni: mi wan taso.
+ko nasa li awen lon.
+sina wile kute e pona la o toki e pona.
+ali li pona.
+mi wile toki.
+kule li toki.
+o weka e pilin ike mi.
+tan ni la, mi wile weka e soweli mi tan sina.
+mi pana e ali.
+len suli laso li lon ala, taso len suli loje li lon.
+ona mute li kuntu.
+tenpo ale la kulupu mama li kama tawa ona.
+mi olin e sina e jan pona
+jan lawa pi tomo tawa telo li moku.
+mi pilin tonsi.
+jan mijomi li ike tawa ona.
+mi o pali ala e ni.
+linja wan taso kin li ike la mi pali sin ale e len ni.
+soweli li pake tawa.
+o pana e kasi tawa seli.
+o pake e ale ni!
+jan mute mute mute li kama!
+o lukin e sitelen ni lon sewi lipu.
+wile mi la ale li kama pona tawa sina.
+ni la nasin pi kama lon sin li pakala.
+mi kama jo e telo ilo tan sijelo kasi pi tenpo pini lon ma.
+akesi mute li lon.
+ona la o kama sona sitelen.
+ma tomo lawa pi ma Punawi li ma tomo Pantasalipakawan.
+o pona e ilo mi.
+ni la, mi la, pu la, nimi sin li ike.
+jan Putu o, sina wile ala wile moli e jan Kajesa?
+nimi pi musi utala nanpa wan li "nimi kin".
+mi wile tawa tomo ona kepeken tomo tawa mi.
+tan seme la ni?
+tenpo pini la, jan Sonja li pali e toki pona.
+o lukin e poki suli ni.
+jan ni li sama mi.
+ante la, jan li ken taso kepeken ona lon lipu.
+jan li jo e tenpo pi mute pona la, ijo ala li ken ala.
+sina powe.
+toki a!
+ilo suno li pakala.
+sina en mi li lon tomo wawa ni lon tenpo suli.
+sina sona ala sona kepeken sitelen sitelen?
+tenpo suli namako luka tu wan, lon tenpo ale
+mi o wile lon tenpo mute.
+nimi pi musi utala ante li "sitelen Kalipi".
+sina taso li mun lili pona mi.
+selo sijelo mi li kama loje tan suno wawa.
+mi sona ala e ni: lupa tomo anu lupa suno.
+kon sewi li sama tawa mi.
+ma ali li pona.
+misikeke ni li tawa ala uta, li tawa linja telo.
+ali li ala mute!
+mi toki e ni tawa nena kute sina.
+mi wile ala unpa.
+taso la, nasin sitelen pi nanpa lili li ken lon ilo toki.
+o lawa e ni: olin pi mi tu li kama pona.
+mi kama lon nasin pi poka lete.
+sijelo mi li pali e ko jaki tan moku.
+lon tomo pona la, ilo pona mute li lon.
+soweli li tawa, li nena e jan Ankewi.
+olin en unpa li kama.
+utala sona suli li lon.
+tan seme la sina wile pilin wan taso?
+mi kute e kalama uta sina.
+lete li lon la, mi len mute e sijelo mi.
+kon tawa li toki e ni: suno o, sina wawa a.
+sina sona ala sona e ni?
+mi moku tan ni: mi wile moku.
+tenpo ale la mi kute e kalama pi ilo toki sina. a!
+o toki e ni tawa soweli tomo sina: o mu ala.
+mi kule mute e sina.
+ona li kama ante ni: nimi pi toki pona li lon open.
+soweli ante li unpa mute, li awen pi pona ala e soweli lili.
+jan Wasinton li jan lawa pona pi ma Mewika.
+mi kama sona e ni: jan melome li ike ala, li powe ala.
+mi taso li lon.
+jan Tu li luka e pan.
+tan seme la sina tawa ala?
+ma Elopa li suli.
+lipu pi tenpo kama ike li ike nanpa wan tawa mi.
+sina pali e moku la sina o len e linja lawa sina.
+kulupu pi lipu pi esun ala li ken lon.
+mama ona li sona ala e kule kon, li pana e nimi ike.
+mi wile e soweli lili suwi.
+mi lukin tawa pilin mi la, pini pi ale ni li ken lon weka.
+jan kala li wile ala e ni, li toki insa e ni:
+ona li ken lukin e tomo suli pi jan ike lon weka mute.
+jan Pejoju li moli e akesi mute.
+oko li kama lon ona!
+taso, mi awen e nimi tan ni.
+mi sona e toki sama mute.
+a! pakala! a! akesi suli li moku e mi!
+o tawa e mi tawa open.
+ona li pake lili, li pana e luka ona tawa jan Tu.
+mi taso li ken tawa ona.
+mi ale li ken pilin ala e tenpo wan lon tenpo wan.
+pona en ike li kama sama ni: ona li wile.
+ma tomo ni li jo e selo kiwen wawa.
+tenpo ale la, jan Tu li wile e pona tawa mi.
+jan moli li toki ala.
+jan sin li kokosila mute.
+jan olin li awen toki:
+kulupu loje li wile e mani tawa jan ale.
+jan ale li ken lukin e lipu.
+mi o kama tawa ma pi jan Tewen.
+ni la, nanpa li kama ni.
+mi suli mute. sina suli lili.
+meli en mije li wile ala toki.
+mi pana e mani mi ale tawa ona.
+meli olin moli mi li moku e jan!
+kiwen kiki pi uta ni li pana e pilin monsuta.
+toki, jan Lisa o.
+ni la, mi kepeken ilo pi nimi sin, li alasa e nimi pona.
+kasi kule loje li lon ma kasi.
+tenpo wawa li lon!
+kulupu nena Nuwan li lon ma Wije.
+wa! pona a!
+ona li jaki!
+jan mute li sona li olin e toki pona.
+jan ike mi li pali sama ni: ona li mi.
+o tawa insa.
+mi utala ike.
+sitelen li ken jo e nimi mute anu nimi lili taso.
+jan Kuntuli li lukin anpa tawa soweli.
+jan Lisa taso li kama.
+tenpo ala la ona li kama tan tomo ona.
+sona lon ni li toki e mama pi pilin ike.
+sina tonsi ala tonsi?
+monsuta li lon anpa pi supa lape mi.
+ona tu li kalama musi kuntu.
+mi open e ken ali.
+o lape pona.
+pilin mi la o awen tawa insa pi kasi ike.
+mi lukin e lipu mama lon poka pi lipu sina.
+jan mute la, toki pona li toki pi pilin pona mute.
+ni la, olin li pona.
+jan Ni Anson en jan Pa Osin li tawa mun kepeken tomo tawa Apolo.
+ona ale li awen tawa.
+jan kala li tawa tomo ona.
+soweli mi li lape la ona li suwi mute a!
+ona li toki e ijo mute.
+a. ni li ken. ike a.
+kulupu mama mi la jan tu li tonsi.
+kasi kule li wile kama suli.
+tenpo suno la suno li lon. tenpo pimeja la mun li lon.
+ale pi kulupu mi li lon tomo moku, li lukin e poki sitelen.
+wawa la, jan Tu li tawa jan Kuntuli, li luka sike e ona.
+mi wile kepeken len seme?
+pali pi jan musi li pini la, jan ale li nanpa toki e pali.
+ale ale tu li awen ale ale tu, tan ni.
+mi pana!
+mama mije en mama meli.
+taso ni li pona lon tenpo pini weka.
+ma Kanata li lon poka pi ma Mewika.
+mama meli li pali e len.
+suno li mun anu seme?
+tenpo sike seme la jan pi kulupu ni li lon?
+tenpo pini la ma ni li ma tomo ala li ma kasi.
+o pakala e ma telo.
+mi olin e moku soweli.
+a, mi wile pake.
+linja ona en len ona li jo e telo mute.
+o kama sona toki musi
+soweli li tawa sike lon jan Kuntuli en jan Tu.
+pakala.
+toki Pisin li tan ma Papuwanijukini.
+nasin pi kama wan la, luka li nanpa sama lon tenpo ale.
+a, lon.
+ike, o pake e ike tawa soweli!
+ken la, ona sin li lon.
+o toki e ni kepeken luka sina.
+jan ante li wile ala e ni: sina kepeken len.
+toki pona li jo e toki sama mute.
+mi ken ala toki e ni tawa kala.
+seme li lon tenpo pi ike ali?
+sina sona e toki Malasija la sina sona mute e toki Intonesija kin.
+nanpa po li sama nanpa tu tu.
+ilo tenpo li sona ala e tenpo pi ante ni.
+mi pali e pan lon ma mi.
+sijelo li sama la, jan ala li sewi.
+mi o alasa mute e ni.
+o kute pona.
+mi sona ala e nasin tawa ni!
+sina tawa ma tomo tan seme?
+tenpo pini suli la mi lukin e ona.
+sona tan ona li lon lipu ku.
+mi seli e ko pan telo la ona li kama pan.
+mi kama jo e wile suli mi.
+sina pakala e ilo kepeken nasin seme?
+mi lon tomo pi ma taso. ona li ken pakala.
+o awen monsi tan ni: tomo tawa linja li kama.
+taso, jan kala li awen, li wile sona e wile pi jan olin ona.
+ilo ni li pona mute.
+nanpa li ijo ni.
+noka ni li suwi li pona lukin.
+ona li ken ala ken pali e ni?
+mi ale li tan ma Inli lon tenpo suno sewi ni.
+ona anu jan ante li ike?
+sina ken pana e sitelen ni sina.
+ken la ona li wile e lipu lawa pi ante nimi.
+jan li weka e nimi nanpa tu, li jo e nimi wan taso.
+o awen lon poka mi.
+a! o lukin!
+mun lili pi mi tu li weka e suno ona.
+olin mi li wile ala lon tomo lili.
+sina toki e toki ante anu seme?
+wan sijelo soweli li nasa lukin li ken ante sama telo.
+pana pi telo walo la, mi tawa e telo mi tawa supa mi.
+mi pilin lete. taso mi lon ma, la ni li ike kin.
+sina wile pana e wan sin.
+jan olin ona li lon supa lon ma pi tomo ona.
+mi pilin ala e toki sina.
+ona li alasa e kala lon tenpo ale.
+mi jo a e tenpo pi mute pona.
+o toki pi nasin moli.
+mi o toki e tenpo wawa.
+mi o nanpa e ona.
+mi wile lukin e sina.
+mi la, nimi sin li pona a.
+jan li wile awen lon olin tawa awen pi pilin pona.
+pali ona li lon tenpo ale.
+mi ken awen lon poka sina.
+tenpo pini la sina jan pona mi.
+mi lawa e lape ni.
+o toki e ni kepeken kalama ante.
+ilo tenpo li kalama wawa.
+mi pana e ijo ali.
+mi pali e ijo nasa kin, li alasa kama lon tomo ona.
+mute. tu. wan. o tawa!
+mi isipin e ijo pi toki sina.
+sina unpa la sina ken pali e jan lili.
+ona li ike ala, li kama mute lon jan li pana e weka misikeke.
+sina pana e nimi ike mute la, sina jaki e lipu.
+sina sama kule kon kapesi.
+kin la, sona olin li ken ike lukin tawa ona.
+ni la, mi wile toki e nimi namako tu.
+ilo ni li konwe.
+mi olin e mama mi.
+toki Inli la, nimi mute tawa ijo wan li lon.
+pipi mute li lon e ma kasi ni.
+sina olin ala e mi la mi tawa weka.
+mi pana e mani tawa kulupu olin.
+sewi li laso. ma pan li jelo. ale li pona.
+sina kama lon tenpo ike.
+poki ni li lon jaki.
+ona li lon poki e pan.
+kili ni li kili mi.
+ilo tenpo li toki e tenpo.
+mi lon ona la, mi pilin ike.
+sina kama lon tenpo ilo seme?
+mi wile ala kokosila. mi wile kokosila la mi kama ala tawa tomo ni.
+o lukin e sitelen tawa Linja
+o toki e ni tawa ona.
+mi jo e akesi po, e poki akesi san taso.
+mi sona e nanpa pi ilo toki sina.
+sina pilin e ni la mi pilin pona.
+sina ken ala ken toki e nimi sina?
+o tawa nena noka!
+jan li ken tawa e jan.
+sina jo e soweli mute. ni li pona tawa mi.
+ken la jan mute li jo e nimi ona.
+mi kama tan linja kili.
+o sitelen e toki musi lon linluwi.
+sina ante e pilin mi.
+mi ale la, jan Si Pakala li kama jo nanpa wan e misikeke.
+jan ale o jan pona.
+sijelo pi mi mute li sama telo nasa.
+jan Seni o, ni li pona ala.
+pilin sina la sina ken ala ken lawa e kulupu?
+mi lukin e sina lon sona mi.
+wawa la, jan Ankewi li weka e luka pi ona tu.
+meli li ike.
+ken la mi tawa ma esun.
+sina ken ala pali.
+"Sonja" li nimi namako.
+o kepeken uta suwi tawa mi.
+ante la tan seme la sina kama ala lon insa tomo?
+pini tenpo li tenpo sewi.
+jan Pewe li majuna la ona li sona e ijo mute.
+a, ike. suli li lon.
+sina jo e ilo nanpa, la sina sona.
+monsuta o, ni li tenpo pimeja.
+mi wile moku e kili mute
+sina moli e mi la, mi pona ala e sina.
+sina moli la, mi ken ala awen lon.
+mi jan lili la mi olin e sina.
+jan Tu li luka e luka pi jan Kuntuli.
+sina wile sona e nimi pi pu ala la o lukin e lipu ku.
+mi kama tawa tomo tan ni.
+tomo tawa telo li pakala li pana e telo ilo pimeja tawa telo suli.
+o olin e mi kepeken uta.
+toki pona li kama tawa ilo kepeken nimi nasin pona ona!
+tomo pi telo nasa.
+ni li wile e tenpo.
+sijelo mi li seli la, sina lukin taso e mi.
+tenpo suli la sina awen weka.
+mi ale li pali e ni.
+taso nasin seme la jan li ken lawa e sitelen lape ona?
+ike ona kin li pona lukin.
+palisa luka mi li pilin pakala.
+mi sike e sina kepeken luka.
+olin sina li musi taso.
+jan Seni o, sina o lukin e ni.
+wile sona ni li ike lili.
+soweli mi li suwi ete ale.
+mi lukin e jan Telen.
+linja wan li sama ni.
+linja loje wan en sike lili loje wan li lon ona.
+jan sona Ewinton li pali ala e misikeke.
+ilo ni li sama ala ilo ante.
+jan olin sina li seme?
+mi sona e ni: ni li toki mi tawa jan Telen nanpa pini, la.
+o tawa lipu.
+mi ken ala lukin e sina la olin mi li pakala e mi.
+nasin mi la ni li pona.
+tenpo pake mute li pini la, ona li tawa lili tawa pan.
+o sin!
+ma sina li pona la ma ante li ike ala ike tawa sina?
+sike pan pi ma Italia li kama ala lon insa mi.
+kasi mute li unpa kepeken pipi.
+sina kin o wile e ona.
+sina toki tawa jan seme?
+sina wile moku e soweli ni la ni li ike tawa soweli ni.
+tenpo lete la sina pali e tomo lete e sijelo lete.
+ni li open ali!
+mi wile e suwi!
+mi ken tawa noka.
+kasi ike mute li lon ma mi!
+ijo luka ni li pana e sona pi ike pi musi ike.
+kin la, ma li ken ante e tenpo pi ante tenpo.
+sina olin e meli anu mije anu tonsi?
+mi pilin ike lili, li wile sin.
+mi jo e kili.
+o lanpan e pan tan jan wan.
+o musi pona!
+nasin seme la pakala li kama.
+pipi lili li lon supa li wile moku e moku mi.
+taso la, jan pi nanpa lili li jo ala e wile ni.
+nanpa pi ilo toki sina li seme?
+nasin olin li lili a, li ken olin ala.
+palisa uta li tawa wawa, li jo e poki lili lon pini.
+tenpo suli seme la ni li lon?
+moku la, kili li pilin pona.
+jan ali li tawa lawa.
+mi ken ala awen e soweli tomo lon tomo mi.
+sina lon poka suli pi ma ante la ale li pona.
+seli li ken pakala e mute.
+ona li lon pilin mi!
+jan Kuntuli en jan Tu li awen tawa, li awen luka.
+sijelo pi mi mute li sama telo moku.
+taso la, ona li moli lon tenpo suno ni.
+a, sina pali e seme?
+jan seme li meli sina?
+jan li lon insa tomo.
+kin la, ona li pana e kili lili ni tawa tomo pi sona majuna.
+o toki e ni:
+o pali e ni tawa wan sijelo ale.
+luka ona li jo e palisa tu tu taso.
+mama meli o pana e pona.
+anpa pi nasin ni li kiwen laso.
+toki. sina seme?
+lon la, mi lukin e ona.
+mi toki tawa mun.
+mi tu li tawa kepeken tomo tawa.
+nasin li ni: soweli pi sike mama li jo ala e nena mama.
+o pali e ni: jan ante li kama ala lon insa tomo.
+o kepeken ilo toki.
+ijo li lon oko mi.
+jan Ankewi li tawa tomo pi jan Tu pi jan Kuntuli.
+mi tu li tawa.
+o jo e tenpo namako.
+ilo o, ilo sona la seme li sin?
+tan seme la mi ike tawa sina?
+ona li sin ala.
+ona li jan pona anu seme?
+tenpo ale la mi wile lukin e ni: sina pilin pona mute.
+a, pona.
+wan sijelo oko palisa jan li pilin e wawa suno.
+jan Telen o, sina lon seme?
+tenpo suno kama la mi wile pali.
+nena sinpin sina li kama loje.
+meli li nasa.
+sina wile lukin e jan ike, anu seme?
+sina soweli li ken mu taso!
+ni li ike tawa sina la o weka e ni.
+ma Masu pi tenpo pini la jan li pali e tomo moli sama nena.
+o lanpan ala e misikeke.
+mi lape la ali li pona.
+taso mi sona e ni: mi lon tomo pali.
+uta sina li toki ala e lon.
+o tawa e poki jaki tawa ma.
+jan kala li toki:
+mi olin e jan ale.
+sina ken toki e ni tawa mi.
+soweli li oko e jan Tu.
+ko ni li ike e oko li pona e soko.
+sina ken nanpa e luka wan tu tu taso.
+ona li tawa lon sewi pi ma kasi lon poka esun.
+mi la, jan li lon anpa.
+mi lukin e nasin tawa tomo.
+unu li kule anu seme?
+musi li pona tawa sona pi toki pona.
+akesi mi li lape lon suno seli.
+tan seme la sina lukin tawa ona?
+ona li kiwen e luka ona, li kama open utala e jan Tu.
+sina tawa la, mi wile lon poka sina.
+jan ale li ken ala ken kute pona e mi?
+o kepeken ilo nanpa. ona li ken sona.
+o tawa wawa.
+misikeke li pona tawa lawa ike mi.
+pona li kama ala tawa mi la mi pilin ike.
+mi kute e sina.
+ike sina li ala e jan lili, la loje li jaki e telo ali.
+tenpo ale la mi lukin e sama.
+jan lawa meli li lon ma ale!
+ilo suno li loje la o awen.
+ni.
+mi wile jo e tomo wan taso pi pona lukin.
+sinpin jelo en sinpin telo li kama tawa mi.
+mije sama sina li pona ala pona tawa sina?
+o kute e toki mi.
+sina toki e seme?
+jan ala li sona pona e nanpa nimi pi toki pona.
+mi lukin e sina la telo pi sike lukin mi li kama.
+jan Ankewi li kalama e kuntu pi ike mute.
+mi jo e olin sama telo suli lon pilin mi.
+jan Tu li luka e soweli.
+o awen pona!
+o awen lon ni.
+ante la, jan o kepeken lipu pu tawa ni.
+o tawa ma tomo lon poka mi.
+taso ona li moku e misikeke la ona li kama ike mute.
+o lape pona!
+sina ken pona e sitelen pi jan ante kin.
+mi pilin e ni: sitelen tawa ni li epiku mute a!
+ken la, jan li pali e ona.
+kasi suli li pana e kili ona tawa mi.
+tenpo ala la suno li kama lon poka lete.
+mi lon tomo moku, taso sina lon seme?
+o pana e ilo tawa mi
+ale li pona lon tenpo suno mute.
+nasin ni li suli.
+toki Inli la, "jan pi moku kon uta" li toki ike.
+ala li ala.
+tenpo ilo pi nanpa tu tu li lon.
+len ni suli li lon ala lon?
+meli ni li ike.
+pilin mi la, mi wile tawa nasin.
+mi kalama kepeken luka lon lipu pi lupa tomo.
+nasin tu ni li utala lili tan ante ona.
+mi pali e ilo ni: ona li ken kute pona e toki kalama jan.
+mi pana e kule loje tawa uta mi.
+tenpo ale la sina wile moku taso.
+o toki e lon tawa mi.
+poka tu pi pilin mi li kama nasa.
+mi wile kama sona e toki Lasina, taso ni li wile e tenpo mute.
+tenpo suno en tenpo pimeja la sina kepeken kon tawa sijelo sina.
+sina jo ala jo e misikeke pi pilin pakala ala?
+ni li nasa suli ala.
+tenpo kama la mi pali sama ni.
+mi wile e seme?
+o pilin suwi o kepeken supa.
+suno en mun o, ali mi li sina.
+pan suwi lili li lon poki moku
+ilo tenpo sina li toki e seme?
+sina lon ala ma ni la, sina ken ala lukin e toki.
+tenpo majuna li lon pini taso.
+lon! lon mute!
+mulapisu li moku pan sike pi ma Italija.
+taso la, sina pana e ala.
+len ona li pona mute tawa ona.
+tenpo pini la mi pali e mute.
+ona li moku e mi kin.
