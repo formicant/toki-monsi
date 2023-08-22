@@ -18,7 +18,7 @@ python __main__.py [-h] [-w WORDS] [-g] [-s SORT] [-o OUTPUT] max_word_count
 ```
 
 positional arguments:
-* `max_word_count` - maximum word count
+* `max_word_count` — maximum word count
 
 options:
 * `-h`, `--help` — show the help message and exit
@@ -27,7 +27,7 @@ options:
   - `ku-suli` — use _pu_ and _ku suli_ words
   - `ku-lili` — use _pu_, _ku suli_, and _ku lili_ words
 * `-g`, `--grammar` — generate only grammatically valid sentences
-* `-s SORT`, -`-sort SORT` — sort results:
+* `-s SORT`, `--sort SORT` — sort results:
   - `A` — alphabetically
   - `L` — by length
   - `W` — by word count
