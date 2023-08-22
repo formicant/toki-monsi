@@ -68,7 +68,7 @@ def get_sort_key(value: str) -> Callable[[str], Any]:
             return lambda s: (len(s), s)
         case 'w' | 'word-count':
             return lambda s: (s.count(' '), s)
-        case 'lm' | 'language model':
+        case 'lm' | 'language-model':
             return LanguageModel().score_sentence
         case _:
             raise ValueError('invalid sorting criterion')
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     parser.add_argument('-g', '--grammar', action='store_true',
                         help='check grammar')
     parser.add_argument('-s', '--sort', type=str,
-                        help='result sorting: A[lphabetical], L[ength], or W[ord-count]')
+                        help='result sorting: A (alphabetical), L (length), W (word-count), or LM (language-model)')
     parser.add_argument('-o', '--output', type=str,
                         help='output file (stdout if not specified)')
 

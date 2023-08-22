@@ -1,31 +1,40 @@
 # Toki Pona palindrome generator
 
+Generates palindromes in Toki Pona.
+
+
 ## Requirements:
 
 - python 3.10
-- parsita
+- parsita 2.1
+- nltk 3.5
 - pytest
+
+
+## Usage
+
+``` bash
+python __main__.py [-h] [-w WORDS] [-g] [-s SORT] [-o OUTPUT] max_word_count
+```
+
+positional arguments:
+* `max_word_count` - maximum word count
+
+options:
+* `-h`, `--help` — show the help message and exit
+* `-w WORDS`, `--words WORDS` — which word list to use:
+  - `pu` _(default)_ — use only _pu_ words
+  - `ku-suli` — use _pu_ and _ku suli_ words
+  - `ku-lili` — use _pu_, _ku suli_, and _ku lili_ words
+* `-g`, `--grammar` — generate only grammatically valid sentences
+* `-s SORT`, -`-sort SORT` — sort results:
+  - `A` — alphabetically
+  - `L` — by length
+  - `W` — by word count
+  - `LM` — using an N-gram language model
+* `-o OUTPUT`, `--output OUTPUT` — output file (stdout if not specified)
+
 
 ## TO DO:
 
-- Add sorting
-- Add grammar parser to filter out trash
-- Rate results (according to n-gram frequencies or something else)
-
-
-## Performance
-
-Old algorithm (direct generating) vs new algorithm (using a graph):
-
-|words ⩽|    count |time (old), s|time (mid), s|time (new), s|
-|------:|---------:|------------:|------------:|------------:|
-|     1 |        5 |       0.001 |       0.022 |       0.044 |
-|     2 |       32 |       0.009 |       0.023 |       0.045 |
-|     3 |      171 |       0.023 |       0.026 |       0.047 |
-|     4 |      840 |       0.125 |       0.039 |       0.054 |
-|     5 |     4042 |       0.649 |       0.101 |       0.090 |
-|     6 |    19544 |       3.306 |       0.396 |       0.260 |
-|     7 |    93782 |      15.674 |       1.926 |       0.464 |
-|     8 |   449797 |      76.090 |       9.059 |       1.301 |
-|     9 |  2154033 |     364.602 |      45.591 |       4.723 |
-|    10 | 10310145 |    1793.520 |     210.363 |      21.835 |
+- Make the grammar work on substrings to filter out whole subtrees when generating palindromes
