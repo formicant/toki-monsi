@@ -2,7 +2,7 @@
 # flake8: noqa F821
 
 import re
-from parsita import TextParsers, Parser
+from parsita import ParserContext, Parser
 from parsita import (
     lit, reg, opt, rep, rep1, repsep, rep1sep, first, longest, pred
 )
@@ -28,7 +28,7 @@ cased_words = ['Pingo', 'kalamARR']
 content_word_regex = ''.join(rf'(?!{w}\b)' for w in grammatical_words) + '[a-z]+|' + '|'.join(cased_words)
 
 
-class TokiPonaParser(TextParsers, whitespace=None):
+class TokiPonaParser(ParserContext, whitespace=None):
     
     # word categories
     
